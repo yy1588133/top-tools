@@ -50,6 +50,12 @@ It helps you to navigate in your code, moving between important positions easily
 
 ---
 
+#### [Cody](https://cody.dev/)
+
+AI that uses your codebase as context.
+
+---
+
 #### [Color Highlight](https://github.com/enyancc/vscode-ext-color-highlight)
 
 This extension styles css/web colors found in your document.
@@ -69,32 +75,6 @@ This plugin attempts to override user/workspace settings with settings found in 
 JavaScript and React/Redux snippets in ES7+ with Babel plugin features.
 
 `customizable` `javascript` `javascriptReact` `keybindings` `prettier` `react` `react-native` `redux` `snippet` `snippets` `typescript` `typescriptReact`
-
----
-
-#### [Format Files](https://github.com/jbockle/format-files)
-
-Formats all files in the current workspace/selected folder/glob. Due to the limitations in VSCode API, this opens each file, runs formatting command, saves the file (other save actions are started as well, to support features such as `tslint.autoFixOnSave` on typescript files), then closes it. The time to complete depends on the number of files and how large the files are.
-
----
-
-#### [Git Graph](https://github.com/mhutchie/vscode-git-graph)
-
-View a Git Graph of your repository, and easily perform Git actions from the graph.
-
-![Git Graph](https://github.com/mhutchie/vscode-git-graph/raw/master/resources/demo.gif)
-
-`action` `diff` `git` `graph` `visualise`
-
----
-
-#### [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-
-GitHub Copilot provides autocomplete-style suggestions from an AI pair programmer as you code. You can receive suggestions from GitHub Copilot either by starting to write the code you want to use, or by writing a natural language comment describing what you want the code to do.
-
-![GitHub Copilot](https://user-images.githubusercontent.com/37570492/212964557-8d832278-61bb-4288-a8a7-47f35859e868.gif)
-
-`ai` `autocomplete` `c#` `c++` `code-referencing` `codex` `co-pilot` `documentation` `go` `golang` `intellisense` `java` `javascript` `keybindings` `kotlin` `openai` `php` `pilot` `python` `refactor` `ruby` `snippets` `typescript`
 
 ---
 
@@ -188,16 +168,6 @@ Every time you press the `Enter` key in a Python context, this extension will pa
 
 ---
 
-#### [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
-
-Quokka.js is a developer productivity tool for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type.
-
-![Quokka.js](https://quokkajs.com/assets/img/main-video.gif)
-
-`javascript` `keybindings` `playground` `quokka-output` `quokka-recent` `quokka-timeline` `REPL` `scratchpad` `snippet` `TypeScript`
-
----
-
 #### [Smart Column Indenter](https://github.com/lmcarreiro/vscode-smart-column-indenter)
 
 This extension adds support for indenting code into columns, to make your code more beautiful, readable, clear and with fewer lines of code.
@@ -225,25 +195,5 @@ WakaTime is an open source VS Code plugin for metrics, insights, and time tracki
 ![WakaTime](https://camo.githubusercontent.com/a845559927a59b8148e583aefd00dad48f0a5e7c4cb44671c6578e59ad72bbbf/68747470733a2f2f77616b6174696d652e636f6d2f7374617469632f696d672f53637265656e53686f74732f53637265656e2d53686f742d323031362d30332d32312e706e67)
 
 `analytics` `code` `code time` `codetime` `flow` `focus` `metrics` `productivity` `slack` `standup` `time` `time tracker` `time tracking` `timer` `todo` `tracker` `tracking` `wakatime` `worktime`
-
----
-
-#### [WSL](https://github.com/Microsoft/vscode-remote-release)
-
-The WSL extension lets you use VS Code on Windows to build Linux applications that run on the Windows Subsystem for Linux (WSL). You get all the productivity of Windows while developing with Linux-based tools, runtimes, and utilities.
-
-![WSL](https://microsoft.github.io/vscode-remote-release/images/remote-wsl-open-code.gif)
-
-`keybindings` `remote` `remote development` `remote-menu` `wsl`
-
----
-
-#### [YAML](https://github.com/redhat-developer/vscode-yaml)
-
-Provides comprehensive YAML Language support to Visual Studio Code, via the yaml-language-server, with built-in Kubernetes syntax support.
-
-![YAML](https://raw.githubusercontent.com/redhat-developer/vscode-yaml/main/images/demo.gif)
-
-`autocompletion` `dockercompose` `kubernetes` `validation` `yaml`
 
 ---
