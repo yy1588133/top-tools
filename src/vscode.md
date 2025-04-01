@@ -40,6 +40,16 @@ The Black extension provides formatting support for your Python files.
 
 ---
 
+#### [Better Comments](https://github.com/aaron-bond/better-comments)
+
+The Better Comments extension will help you create more human-friendly comments in your code.
+
+![Better Comments](https://github.com/aaron-bond/better-comments/blob/master/images/better-comments.PNG)
+
+`typescript` `formatting`
+
+---
+
 #### [Bookmarks](https://github.com/alefragnani/vscode-bookmarks)
 
 It helps you to navigate in your code, moving between important positions easily and quickly. _No more need to search for code_. It also supports a set of **selection** commands, which allows you to select bookmarked lines and regions between bookmarked lines. It's really useful for log file analysis.
@@ -50,15 +60,27 @@ It helps you to navigate in your code, moving between important positions easily
 
 ---
 
-#### [Cody](https://cody.dev/)
+#### [Cody](https://github.com/sourcegraph/cody)
 
-AI that uses your codebase as context.
+Cody is an AI coding agent that uses the latest LLMs and codebase context to help you understand, write, and fix code faster.
+
+`ai`
 
 ---
 
 #### [Color Highlight](https://github.com/enyancc/vscode-ext-color-highlight)
 
 This extension styles css/web colors found in your document.
+
+---
+
+#### [Continue](https://github.com/continuedev/continue)
+
+Continue enables developers to create, share, and use custom AI code assistants with our open-source VS Code and JetBrains extensions and hub of models, rules, prompts, docs, and other building blocks.
+
+![Continue](https://github.com/continuedev/continue/raw/main/docs/static/img/chat.gif)
+
+`open-source` `ai` `developer-tools` `software-development` `copilot` `llm`
 
 ---
 
@@ -75,14 +97,6 @@ This plugin attempts to override user/workspace settings with settings found in 
 JavaScript and React/Redux snippets in ES7+ with Babel plugin features.
 
 `customizable` `javascript` `javascriptReact` `keybindings` `prettier` `react` `react-native` `redux` `snippet` `snippets` `typescript` `typescriptReact`
-
----
-
-#### [indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow)
-
-This extension colorizes the indentation in front of your text, alternating four different colors on each step. Some may find it helpful in writing code for Python, Nim, Yaml, and probably even filetypes that are not indentation dependent.
-
-![indent-rainbow](https://raw.githubusercontent.com/oderwat/vscode-indent-rainbow/master/assets/example.png)
 
 ---
 
@@ -106,6 +120,14 @@ The extension provides a series of import sorting features to help with readabil
 
 ---
 
+#### [JavaScript ES6 snippets](https://github.com/xabikos/vscode-javascript)
+
+This extension contains code snippets for JavaScript in ES6 syntax for Vs Code editor (supports both JavaScript and TypeScript).
+
+`snippets` `javascript` `snippet`
+
+---
+
 #### [Markdown Preview Mermaid Support](https://github.com/mjbvz/vscode-markdown-mermaid)
 
 Adds Mermaid diagram and flowchart support to VS Code's builtin Markdown preview and to Markdown cells in notebooks.
@@ -113,6 +135,16 @@ Adds Mermaid diagram and flowchart support to VS Code's builtin Markdown preview
 ![Markdown Preview Mermaid Support](https://github.com/mjbvz/vscode-markdown-mermaid/raw/master/docs/example.png)
 
 `diagram` `flowchart` `markdown` `mermaid` `preview`
+
+---
+
+#### [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
+
+Get the Material Design icons into your VS Code.
+
+![Material Icon Theme](https://raw.githubusercontent.com/material-extensions/vscode-material-icon-theme/main/images/folderIcons.png)
+
+`material-icons` `vscode-theme` `vscode-icons` `material-icon-theme`
 
 ---
 
@@ -185,6 +217,16 @@ A Powerful SVG Language Support Extension. Almost all the features you need to h
 ![SVG](https://raw.githubusercontent.com/lishu/vscode-svg2/c1e45523a29b0e648d5bacad2efe1931438b6ef0/images/f2s.gif)
 
 `format` `previewer` `svg`
+
+---
+
+#### [Tailwind CSS IntelliSense](https://github.com/tailwindlabs/tailwindcss-intellisense)
+
+Tailwind CSS IntelliSense enhances the Tailwind development experience by providing Visual Studio Code users with advanced features such as autocomplete, syntax highlighting, and linting.
+
+![Tailwind CSS IntelliSense](https://raw.githubusercontent.com/tailwindlabs/tailwindcss-intellisense/main/packages/vscode-tailwindcss/.github/banner.png)
+
+`css` `intellisense` `tailwind` `tailwindcss`
 
 ---
 
