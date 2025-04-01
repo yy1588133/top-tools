@@ -192,7 +192,7 @@ A Powerful SVG Language Support Extension. Almost all the features you need to h
 
 WakaTime is an open source VS Code plugin for metrics, insights, and time tracking automatically generated from your programming activity.
 
-![WakaTime]([https://camo.githubusercontent.com/a845559927a59b8148e583aefd00dad48f0a5e7c4cb44671c6578e59ad72bbbf/68747470733a2f2f77616b6174696d652e636f6d2f7374617469632f696d672f53637265656e53686f74732f53637265656e2d53686f742d323031362d30332d32312e706e67](https://wakatime.com/static/img/plugins/installing/vs-code.gif))
+![WakaTime](https://wakatime.com/static/img/plugins/installing/vs-code.gif)
 
 `analytics` `code` `code time` `codetime` `flow` `focus` `metrics` `productivity` `slack` `standup` `time` `time tracker` `time tracking` `timer` `todo` `tracker` `tracking` `wakatime` `worktime`
 
