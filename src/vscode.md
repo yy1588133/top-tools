@@ -4,31 +4,40 @@ This is my personal list of installed extensions on my VSCode. Use it as you ple
 
 #### [Auto Close Tag](https://github.com/formulahendry/vscode-auto-close-tag)
 
-Automatically add HTML/XML close tag.
+Replaced by native VSCODE settings:
 
-![Auto Close Tag](https://raw.githubusercontent.com/formulahendry/vscode-auto-close-tag/master/images/close-tag.gif)
-
-`AutoComplete` `close` `html` `keybindings` `multi-root ready` `tag` `xml`
+"editor.autoClosingBrackets": "always",
+"editor.autoClosingQuotes": "always",
+"editor.autoClosingDelete": "always",
+"html.autoClosingTags": true
 
 ---
 
 #### [Auto Commit Message](https://github.com/MichaelCurrin/auto-commit-msg)
 
-A VS Code extension to generate a smart commit message based on file changes.
+Replaced by VSCODE keyboard shortcuts:
 
-![Auto Commit Message](https://github.com/MichaelCurrin/auto-commit-msg/raw/master/docs/_media/sample-chore.png)
+  {
+    "key": "ctrl+enter",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        { "command": "git.stageAll" },
+        { "command": "git.commit" },
+        { "command": "git.sync" }
+      ]
+    }
+  }
 
-`auto` `commit` `conventional-commit` `generate` `git` `message` `productivity` `vscode` `vs-code`
+And use AI chat to create a commit message by saying "use conventional commit message format".
 
 ---
 
 #### [Auto Rename Tag](https://github.com/formulahendry/vscode-auto-rename-tag)
 
-Automatically rename paired HTML/XML tag.
+Replaced by native VSCODE settings:
 
-![Auto Rename Tag](https://github.com/formulahendry/vscode-auto-rename-tag/raw/master/images/usage.gif)
-
-`AutoComplete` `html` `multi-root ready` `rename` `tag` `xml`
+"editor.linkedEditing": true
 
 ---
 
@@ -37,16 +46,6 @@ Automatically rename paired HTML/XML tag.
 The Black extension provides formatting support for your Python files.
 
 `black` `formatting` `python` `toml`
-
----
-
-#### [Better Comments](https://github.com/aaron-bond/better-comments)
-
-The Better Comments extension will help you create more human-friendly comments in your code.
-
-![Better Comments](https://github.com/aaron-bond/better-comments/blob/master/images/better-comments.PNG)
-
-`typescript` `formatting`
 
 ---
 
@@ -70,7 +69,9 @@ Cody is an AI coding agent that uses the latest LLMs and codebase context to hel
 
 #### [Color Highlight](https://github.com/enyancc/vscode-ext-color-highlight)
 
-This extension styles css/web colors found in your document.
+Replaced by native VSCODE settings:
+
+"editor.colorDecorators": true
 
 ---
 
