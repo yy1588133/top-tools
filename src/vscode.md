@@ -6,10 +6,12 @@ This is my personal list of installed extensions on my VSCode. Use it as you ple
 
 Replaced by native VSCODE settings:
 
+```bash
 "editor.autoClosingBrackets": "always",
 "editor.autoClosingQuotes": "always",
 "editor.autoClosingDelete": "always",
 "html.autoClosingTags": true
+```
 
 ---
 
@@ -17,6 +19,7 @@ Replaced by native VSCODE settings:
 
 Replaced by VSCODE keyboard shortcuts:
 
+```bash
   {
     "key": "ctrl+enter",
     "command": "runCommands",
@@ -28,6 +31,7 @@ Replaced by VSCODE keyboard shortcuts:
       ]
     }
   }
+```
 
 And use AI chat to create a commit message by saying "use conventional commit message format".
 
@@ -37,7 +41,9 @@ And use AI chat to create a commit message by saying "use conventional commit me
 
 Replaced by native VSCODE settings:
 
+```bash
 "editor.linkedEditing": true
+```
 
 ---
 
@@ -71,7 +77,9 @@ Cody is an AI coding agent that uses the latest LLMs and codebase context to hel
 
 Replaced by native VSCODE settings:
 
+```bash
 "editor.colorDecorators": true
+```
 
 ---
 
