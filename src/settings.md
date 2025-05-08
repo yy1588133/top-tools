@@ -12,9 +12,11 @@
   "editor.tabSize": 2,
   "editor.tabCompletion": "on",
   "editor.formatOnSave": true,
-  "editor.colorDecorators": false,
+  "editor.colorDecorators": true,
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingQuotes": "always",
+  "editor.autoClosingDelete": "always",
+  "html.autoClosingTags": true,
   "editor.renderWhitespace": "selection",
   "editor.copyWithSyntaxHighlighting": false,
   "editor.emptySelectionClipboard": false,
@@ -73,7 +75,7 @@
   "window.newWindowDimensions": "offset",
 
   // Search settings
-  "search.useIgnoreFiles": false,
+  "search.useIgnoreFiles": true,
   "search.exclude": {
     "**/node_modules": true,
     "**/package-lock*": true,
@@ -98,6 +100,8 @@
   // Prettier settings
   "prettier.trailingComma": "all",
   "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
 
   // Prettier DefaultFormatter settings
   "[javascriptreact]": {
@@ -132,16 +136,16 @@
   },
 
   // Cody settings
-  "cody.chat.preInstruction": "You are allowed to ask anything in case of doubt. Read carefully, breathe, understand step-by-step. Imagine that three different specialists are answering this question. All the specialists will write 1 step of their thoughts, then share this with the group. Then all the specialists will go to the next step, etc. If any specialist realizes that they are wrong at any point, then they leave. The target is to answer the question based on what have they been learned. Use [Tiger Style](https://tigerstyle.dev/) and Cognitive Driven Development while coding. For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production. By default, this template supports mobile-first and offline-first development, JSX syntax with Module CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them. Use icons from lucide-react for logos. Use stock photos from unsplash where appropriate, only valid URLs you know exist.",
-  "cody.autocomplete.disableInsideComments": true,
-  "cody.edit.preInstruction": "",
-  "cody.debug.filter": " ",
-  "cody.commandHints.enabled": false,
-  "cody.autocomplete.triggerDelay": 5000,
-  "cody.telemetry.level": "off",
-  "cody.autocomplete.formatOnAccept": true,
-  "cody.codeActions.enabled": false,
-  "cody.suggestions.mode": "off",
+  // "cody.chat.preInstruction": "You are allowed to ask anything in case of doubt. Read carefully, breathe, understand step-by-step. Imagine that three different specialists are answering this question. All the specialists will write 1 step of their thoughts, then share this with the group. Then all the specialists will go to the next step, etc. If any specialist realizes that they are wrong at any point, then they leave. The target is to answer the question based on what have they been learned. Use [Tiger Style](https://tigerstyle.dev/) and Cognitive Driven Development while coding. For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production. By default, this template supports mobile-first and offline-first development, JSX syntax with Module CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them. Use icons from lucide-react for logos. Use stock photos from unsplash where appropriate, only valid URLs you know exist.",
+  // "cody.autocomplete.disableInsideComments": true,
+  // "cody.edit.preInstruction": "",
+  // "cody.debug.filter": " ",
+  // "cody.commandHints.enabled": false,
+  // "cody.autocomplete.triggerDelay": 5000,
+  // "cody.telemetry.level": "off",
+  // "cody.autocomplete.formatOnAccept": true,
+  // "cody.codeActions.enabled": false,
+  // "cody.suggestions.mode": "off",
 
   // Terminal settings
   "terminal.integrated.gpuAcceleration": "on",
@@ -153,12 +157,7 @@
   // Misc settings
   "extensions.ignoreRecommendations": true,
   "breadcrumbs.enabled": false,
-  "color-highlight.markerType": "dot-before",
-  "continue.enableTabAutocomplete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always"
 }
-
 ```
-
----
