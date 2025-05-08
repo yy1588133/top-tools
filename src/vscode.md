@@ -1,17 +1,54 @@
 ## TOP VSCODE EXTENSIONS
 
-This is my personal list of installed extensions on my VSCode. Use it as you please.
+_Last updated: 2025-05-08_
 
-#### [Auto Close Tag](https://github.com/formulahendry/vscode-auto-close-tag)
+### Summary Table
 
-Replaced by native VSCODE settings:
+| Extension Name                   | Status   | Notes/Replacement                                         |
+| -------------------------------- | -------- | --------------------------------------------------------- |
+| Auto Close Tag                   | Replaced | Native settings                                           |
+| Auto Commit Message              | Replaced | Keyboard shortcuts                                        |
+| Auto Rename Tag                  | Replaced | Native settings                                           |
+| Cody                             | Replaced | CodeLLM                                                   |
+| Continue                         | Replaced | CodeLLM                                                   |
+| Color Highlight                  | Replaced | Native settings                                           |
+| Black Formatter                  | Active   | Python formatting                                         |
+| Bookmarks                        | Active   | Code navigation                                           |
+| Editor Config                    | Active   | Maintain consistent coding styles across editors and IDEs |
+| ES7+ Snippets                    | Active   | JavaScript and React/Redux snippets                       |
+| IntelliCode                      | Active   | AI-assisted code completions and suggestions              |
+| isort                            | Active   | Python import sorting                                     |
+| JavaScript ES6 snippets          | Active   | JavaScript code snippets                                  |
+| Markdown Preview Mermaid Support | Active   | Adds Mermaid diagram support to Markdown previews         |
+| Material Icon Theme              | Active   | Material Design icons for VS Code                         |
+| Minify                           | Active   | Minifies JS, CSS, and HTML files                          |
+| Prettier                         | Active   | Code formatter for various languages                      |
+| Pylance                          | Active   | Python language support with static type checking         |
+| Python                           | Active   | Python development environment and debugging support      |
+| Python Debugger                  | Active   | Debugging support for Python applications                 |
+| Python Indent                    | Active   | Provides consistent indentation for Python code           |
+| Smart Column Indenter            | Active   | Provides consistent indentation for Python code           |
+| SVG                              | Active   | SVG editing and visualization support                     |
+| Tailwind CSS IntelliSense        | Active   | Intelligent Tailwind CSS tooling for VS Code              |
+| WakaTime                         | Active   | Metrics, insights, and time tracking for developers       |
+| ...                              | ...      | ...                                                       |
 
-```bash
+---
+
+## Extensions Replaced by Native Features
+
+#### [Auto Close Tag](https://github.com/formulahendry/vscode-auto-close-tag) _(Replaced by Native)_
+
+**Replaced by VSCode native settings (since v1.60):**
+
+```json
 "editor.autoClosingBrackets": "always",
 "editor.autoClosingQuotes": "always",
 "editor.autoClosingDelete": "always",
 "html.autoClosingTags": true
 ```
+
+See [settings.md](./settings.md) for full configuration.
 
 ---
 
@@ -19,18 +56,14 @@ Replaced by native VSCODE settings:
 
 Replaced by VSCODE keyboard shortcuts:
 
-```bash
-  {
-    "key": "ctrl+enter",
-    "command": "runCommands",
-    "args": {
-      "commands": [
-        { "command": "git.stageAll" },
-        { "command": "git.commit" },
-        { "command": "git.sync" }
-      ]
-    }
+```json
+{
+  "key": "ctrl+enter",
+  "command": "runCommands",
+  "args": {
+    "commands": [{ "command": "git.stageAll" }, { "command": "git.commit" }, { "command": "git.sync" }]
   }
+}
 ```
 
 And use AI chat to create a commit message by saying "use conventional commit message format".
@@ -41,11 +74,45 @@ And use AI chat to create a commit message by saying "use conventional commit me
 
 Replaced by native VSCODE settings:
 
-```bash
+```json
 "editor.linkedEditing": true
 ```
 
 ---
+
+#### [Cody](https://github.com/sourcegraph/cody)
+
+Cody is an AI coding agent that uses the latest LLMs and codebase context to help you understand, write, and fix code faster.
+
+No longer used since Abacus CodeLLM.
+
+`ai`
+
+---
+
+#### [Continue](https://github.com/continuedev/continue)
+
+Continue enables developers to create, share, and use custom AI code assistants with our open-source VS Code and JetBrains extensions and hub of models, rules, prompts, docs, and other building blocks.
+
+![Continue](https://github.com/continuedev/continue/raw/main/docs/static/img/chat.gif)
+
+No longer used since Abacus CodeLLM.
+
+`open-source` `ai` `developer-tools` `software-development` `copilot` `llm`
+
+---
+
+#### [Color Highlight](https://github.com/enyancc/vscode-ext-color-highlight)
+
+Replaced by native VSCODE settings:
+
+```json
+"editor.colorDecorators": true
+```
+
+---
+
+## Active Extensions
 
 #### [Black Formatter](https://github.com/microsoft/vscode-black-formatter)
 
@@ -62,34 +129,6 @@ It helps you to navigate in your code, moving between important positions easily
 ![Bookmarks](https://github.com/alefragnani/vscode-bookmarks/raw/master/images/printscreen-toggle.png)
 
 `bookmark` `jump` `keybindings` `mark` `multi-root ready` `navigation` `selection` `sticky`
-
----
-
-#### [Cody](https://github.com/sourcegraph/cody)
-
-Cody is an AI coding agent that uses the latest LLMs and codebase context to help you understand, write, and fix code faster.
-
-`ai`
-
----
-
-#### [Color Highlight](https://github.com/enyancc/vscode-ext-color-highlight)
-
-Replaced by native VSCODE settings:
-
-```bash
-"editor.colorDecorators": true
-```
-
----
-
-#### [Continue](https://github.com/continuedev/continue)
-
-Continue enables developers to create, share, and use custom AI code assistants with our open-source VS Code and JetBrains extensions and hub of models, rules, prompts, docs, and other building blocks.
-
-![Continue](https://github.com/continuedev/continue/raw/main/docs/static/img/chat.gif)
-
-`open-source` `ai` `developer-tools` `software-development` `copilot` `llm`
 
 ---
 
