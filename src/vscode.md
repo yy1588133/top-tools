@@ -1,37 +1,62 @@
 ## TOP VSCODE EXTENSIONS
 
-_Last updated: 2025-05-08_
+_Last updated: 2025-05-28_
+_Currently using VSCodium_
 
 ### Summary Table
 
-| Extension Name                   | Status   | Notes/Replacement                                         |
-| -------------------------------- | -------- | --------------------------------------------------------- |
-| Auto Close Tag                   | Replaced | Native settings                                           |
-| Auto Commit Message              | Replaced | Keyboard shortcuts                                        |
-| Auto Rename Tag                  | Replaced | Native settings                                           |
-| Cody                             | Replaced | CodeLLM                                                   |
-| Continue                         | Replaced | CodeLLM                                                   |
-| Color Highlight                  | Replaced | Native settings                                           |
-| Black Formatter                  | Active   | Python formatting                                         |
-| Bookmarks                        | Active   | Code navigation                                           |
-| Editor Config                    | Active   | Maintain consistent coding styles across editors and IDEs |
-| ES7+ Snippets                    | Active   | JavaScript and React/Redux snippets                       |
-| IntelliCode                      | Active   | AI-assisted code completions and suggestions              |
-| isort                            | Active   | Python import sorting                                     |
-| JavaScript ES6 snippets          | Active   | JavaScript code snippets                                  |
-| Markdown Preview Mermaid Support | Active   | Adds Mermaid diagram support to Markdown previews         |
-| Material Icon Theme              | Active   | Material Design icons for VS Code                         |
-| Minify                           | Active   | Minifies JS, CSS, and HTML files                          |
-| Prettier                         | Active   | Code formatter for various languages                      |
-| Pylance                          | Active   | Python language support with static type checking         |
-| Python                           | Active   | Python development environment and debugging support      |
-| Python Debugger                  | Active   | Debugging support for Python applications                 |
-| Python Indent                    | Active   | Provides consistent indentation for Python code           |
-| Smart Column Indenter            | Active   | Provides consistent indentation for Python code           |
-| SVG                              | Active   | SVG editing and visualization support                     |
-| Tailwind CSS IntelliSense        | Active   | Intelligent Tailwind CSS tooling for VS Code              |
-| WakaTime                         | Active   | Metrics, insights, and time tracking for developers       |
-| ...                              | ...      | ...                                                       |
+| Extension Name                   | Status     | Notes/Replacement                                         |
+| -------------------------------- | ---------- | --------------------------------------------------------- |
+| IntelliCode                      | Deprecated | Not available on VSCodium                                 |
+| Minify                           | Deprecated | Not available on VSCodium                                 |
+| Smart Column Indenter            | Deprecated | Not available on VSCodium                                 |
+| Auto Close Tag                   | Replaced   | Native settings                                           |
+| Auto Commit Message              | Replaced   | Keyboard shortcuts                                        |
+| Auto Rename Tag                  | Replaced   | Native settings                                           |
+| Continue                         | Replaced   | Cody                                                      |
+| Color Highlight                  | Replaced   | Native settings                                           |
+| Material Icon Theme              | Replaced   | Native settings                                           |
+| Black Formatter                  | Active     | Python formatting                                         |
+| Bookmarks                        | Active     | Code navigation                                           |
+| Cody                             | Active     | AI code assistant                                         |
+| Editor Config                    | Active     | Maintain consistent coding styles across editors and IDEs |
+| ES7+ Snippets                    | Active     | JavaScript and React/Redux snippets                       |
+| isort                            | Active     | Python import sorting                                     |
+| JavaScript ES6 snippets          | Active     | JavaScript code snippets                                  |
+| Markdown Preview Mermaid Support | Active     | Adds Mermaid diagram support to Markdown previews         |
+| Prettier                         | Active     | Code formatter for various languages                      |
+| Pylance                          | Active     | Python language support with static type checking         |
+| Python                           | Active     | Python development environment and debugging support      |
+| Python Debugger                  | Active     | Debugging support for Python applications                 |
+| Python Indent                    | Active     | Provides consistent indentation for Python code           |
+| SVG                              | Active     | SVG editing and visualization support                     |
+| Tailwind CSS IntelliSense        | Active     | Intelligent Tailwind CSS tooling for VS Code              |
+| WakaTime                         | Active     | Metrics, insights, and time tracking for developers       |
+| ...                              | ...        | ...                                                       |
+
+---
+
+## Extensions not available on VSCodium (deprecated)
+
+#### [intellicode](https://github.com/MicrosoftDocs/intellicode)
+
+The extension provides AI-assisted development features for Python, TypeScript/JavaScript and Java developers, with insights based on understanding your code context combined with machine learning.
+
+`java` `javascript` `javascriptreact` `python` `sql` `typescript` `typescriptreact`
+
+---
+
+#### [Minify](https://github.com/HookyQR/VSCodeMinify)
+
+Minify your js, css and html files to save transmit bandwidth.
+
+---
+
+#### [Smart Column Indenter](https://github.com/lmcarreiro/vscode-smart-column-indenter)
+
+This extension adds support for indenting code into columns, to make your code more beautiful, readable, clear and with fewer lines of code.
+
+`align` `alignment` `code alignment` `indent` `indentation` `keybindings`
 
 ---
 
@@ -54,17 +79,7 @@ See [settings.md](./settings.md) for full configuration.
 
 #### [Auto Commit Message](https://github.com/MichaelCurrin/auto-commit-msg)
 
-Replaced by VSCODE keyboard shortcuts:
-
-```json
-{
-  "key": "ctrl+enter",
-  "command": "runCommands",
-  "args": {
-    "commands": [{ "command": "git.stageAll" }, { "command": "git.commit" }, { "command": "git.sync" }]
-  }
-}
-```
+Replaced by Cody Generate Commit Message (Experimental).
 
 And use AI chat to create a commit message by saying "use conventional commit message format".
 
@@ -80,23 +95,13 @@ Replaced by native VSCODE settings:
 
 ---
 
-#### [Cody](https://github.com/sourcegraph/cody)
-
-Cody is an AI coding agent that uses the latest LLMs and codebase context to help you understand, write, and fix code faster.
-
-No longer used since Abacus CodeLLM.
-
-`ai`
-
----
-
 #### [Continue](https://github.com/continuedev/continue)
 
 Continue enables developers to create, share, and use custom AI code assistants with our open-source VS Code and JetBrains extensions and hub of models, rules, prompts, docs, and other building blocks.
 
 ![Continue](https://github.com/continuedev/continue/raw/main/docs/static/img/chat.gif)
 
-No longer used since Abacus CodeLLM.
+No longer used since Cody.
 
 `open-source` `ai` `developer-tools` `software-development` `copilot` `llm`
 
@@ -108,6 +113,16 @@ Replaced by native VSCODE settings:
 
 ```json
 "editor.colorDecorators": true
+```
+
+---
+
+#### [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
+
+Replaced by native VSCODE settings:
+
+```json
+"workbench.iconTheme": "vs-minimal"
 ```
 
 ---
@@ -132,6 +147,14 @@ It helps you to navigate in your code, moving between important positions easily
 
 ---
 
+#### [Cody](https://github.com/sourcegraph/cody)
+
+Cody is an AI coding agent that uses the latest LLMs and codebase context to help you understand, write, and fix code faster.
+
+`ai`
+
+---
+
 #### [EditorConfig](https://github.com/editorconfig/editorconfig-vscode)
 
 This plugin attempts to override user/workspace settings with settings found in `.editorconfig` files. No additional or vscode-specific files are required. As with any EditorConfig plugin, if `root=true` is not specified, EditorConfig will continue to look for an `.editorconfig` file outside of the project.
@@ -145,16 +168,6 @@ This plugin attempts to override user/workspace settings with settings found in 
 JavaScript and React/Redux snippets in ES7+ with Babel plugin features.
 
 `customizable` `javascript` `javascriptReact` `keybindings` `prettier` `react` `react-native` `redux` `snippet` `snippets` `typescript` `typescriptReact`
-
----
-
-#### [intellicode](https://github.com/MicrosoftDocs/intellicode)
-
-The extension provides AI-assisted development features for Python, TypeScript/JavaScript and Java developers, with insights based on understanding your code context combined with machine learning.
-
-![intellicode](https://media.githubusercontent.com/media/microsoft/vscode-docs/main/docs/editor/images/intellisense/intellicode-usage-examples-v2.gif)
-
-`java` `javascript` `javascriptreact` `python` `sql` `typescript` `typescriptreact`
 
 ---
 
@@ -183,22 +196,6 @@ Adds Mermaid diagram and flowchart support to VS Code's builtin Markdown preview
 ![Markdown Preview Mermaid Support](https://github.com/mjbvz/vscode-markdown-mermaid/raw/master/docs/example.png)
 
 `diagram` `flowchart` `markdown` `mermaid` `preview`
-
----
-
-#### [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
-
-Get the Material Design icons into your VS Code.
-
-![Material Icon Theme](https://raw.githubusercontent.com/material-extensions/vscode-material-icon-theme/main/images/folderIcons.png)
-
-`material-icons` `vscode-theme` `vscode-icons` `material-icon-theme`
-
----
-
-#### [Minify](https://github.com/HookyQR/VSCodeMinify)
-
-Minify your js, css and html files to save transmit bandwidth.
 
 ---
 
@@ -245,16 +242,6 @@ Every time you press the `Enter` key in a Python context, this extension will pa
 ![Python Indent](https://raw.githubusercontent.com/kbrose/vsc-python-indent/760d0caa810734b1afa493f4b35d10138dd7e033/static/demo.gif)
 
 `dedent` `indent` `indentation` `jupyter` `keybindings` `python` `whitespace`
-
----
-
-#### [Smart Column Indenter](https://github.com/lmcarreiro/vscode-smart-column-indenter)
-
-This extension adds support for indenting code into columns, to make your code more beautiful, readable, clear and with fewer lines of code.
-
-![Smart Column Indenter](https://raw.githubusercontent.com/lmcarreiro/vscode-smart-column-indenter/master/demo.gif)
-
-`align` `alignment` `code alignment` `indent` `indentation` `keybindings`
 
 ---
 
