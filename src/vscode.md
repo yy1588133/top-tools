@@ -1,7 +1,7 @@
 ## TOP VSCODE EXTENSIONS
 
-_Last updated: 2025-05-28_
-_Currently using VSCodium_
+_Last updated: 2025-05-30_
+_Current setup: W11-debloated, VSCodium_
 
 ### Summary Table
 
@@ -13,12 +13,13 @@ _Currently using VSCodium_
 | Auto Close Tag                   | Replaced   | Native settings                                           |
 | Auto Commit Message              | Replaced   | Keyboard shortcuts                                        |
 | Auto Rename Tag                  | Replaced   | Native settings                                           |
-| Continue                         | Replaced   | Cody                                                      |
+| Cody                             | Replaced   | Cline                                                     |
+| Continue                         | Replaced   | Cline                                                     |
 | Color Highlight                  | Replaced   | Native settings                                           |
 | Material Icon Theme              | Replaced   | Native settings                                           |
 | Black Formatter                  | Active     | Python formatting                                         |
 | Bookmarks                        | Active     | Code navigation                                           |
-| Cody                             | Active     | AI code assistant                                         |
+| Cline                            | Active     | AI code assistant                                         |
 | Editor Config                    | Active     | Maintain consistent coding styles across editors and IDEs |
 | ES7+ Snippets                    | Active     | JavaScript and React/Redux snippets                       |
 | isort                            | Active     | Python import sorting                                     |
@@ -79,9 +80,26 @@ See [settings.md](./settings.md) for full configuration.
 
 #### [Auto Commit Message](https://github.com/MichaelCurrin/auto-commit-msg)
 
-Replaced by Cody Generate Commit Message (Experimental).
+Replaced by Prompt Library with specific instructions:
 
-And use AI chat to create a commit message by saying "use conventional commit message format".
+```txt
+Generate a commit message for the following staged changes using the Conventional Commits format.
+
+Follow these rules:
+1. Use one of these types: feat, fix, docs, style, refactor, perf, test, build, ci, chore
+2. Format: <type>[optional scope]: <description>
+3. Keep the first line under 50 characters
+4. Add body details if necessary, wrapped at 72 characters
+
+Example:
+feat(user-auth): add password reset functionality
+Implement reset API, email template, and form component
+Closes #123
+
+Context:
+File: currently open tabs
+Command: "git diff --cached"
+```
 
 ---
 
@@ -95,13 +113,21 @@ Replaced by native VSCODE settings:
 
 ---
 
+#### [Cody](https://github.com/sourcegraph/cody)
+
+No longer used since Cline.
+
+`ai`
+
+---
+
 #### [Continue](https://github.com/continuedev/continue)
 
 Continue enables developers to create, share, and use custom AI code assistants with our open-source VS Code and JetBrains extensions and hub of models, rules, prompts, docs, and other building blocks.
 
 ![Continue](https://github.com/continuedev/continue/raw/main/docs/static/img/chat.gif)
 
-No longer used since Cody.
+No longer used since Cline.
 
 `open-source` `ai` `developer-tools` `software-development` `copilot` `llm`
 
@@ -147,11 +173,13 @@ It helps you to navigate in your code, moving between important positions easily
 
 ---
 
-#### [Cody](https://github.com/sourcegraph/cody)
+#### [Cline](https://github.com/cline/cline)
 
-Cody is an AI coding agent that uses the latest LLMs and codebase context to help you understand, write, and fix code faster.
+Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
 
-`ai`
+![Cline](https://media.githubusercontent.com/media/cline/cline/main/assets/docs/demo.gif)
+
+`ai` `chat` `programming languages` `education` `snippets` `testing`
 
 ---
 

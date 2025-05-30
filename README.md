@@ -28,7 +28,7 @@ The VSCode extensions are categorized as:
 
 ## 🔄 Updates
 
-Last updated: 2025-05-28
+Last updated: 2025-05-30
 
 This repository is regularly updated to reflect the latest tool recommendations and configurations.
 
