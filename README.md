@@ -4,11 +4,11 @@ A curated collection of essential development tools, extensions, and configurati
 
 ## 📋 Contents
 
-- [🔧 VSCode Extensions](src/vscode.md) - Essential extensions for VSCode/VSCodium development
-- [🤖 ClineRules Examples](src/clinerules.md) - Essential preset AI assistant rule files
 - [🌐 Browser Extensions](src/browser.md) - Productivity and development browser extensions
-- [⚙️ JSON Settings](src/settings.json) - VSCode configuration settings
+- [🤖 ClineRules Instructions](src/clinerules.md) - Essential preset AI assistant rule files
 - [🔗 Favorite Links](/src/fav.html) - Curated development resources and links
+- [⚙️ JSON Settings](src/settings.json) - VSCode configuration settings
+- [🔧 VSCode Extensions](src/vscode.md) - Essential extensions for VSCode/VSCodium development
 
 ## 🚀 Quick Start
 
@@ -29,7 +29,7 @@ The VSCode extensions are categorized as:
 
 ## 🔄 Updates
 
-Last updated: 2025-05-30
+Last updated: 2025-05-31
 
 This repository is regularly updated to reflect the latest tool recommendations and configurations.
 
