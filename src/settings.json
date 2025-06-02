@@ -1,5 +1,17 @@
 {
-  // Editor settings
+  // Performance optimization settings
+  // Memory usage: Low, CPU impact: Minimal
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
+  "workbench.enableExperiments": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.panel.showLabels": false,
+  "breadcrumbs.enabled": false,
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
+  "extensions.ignoreRecommendations": true,
+
+  // Editor settings - Core functionality
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
   "editor.rulers": [80, 120],
@@ -9,26 +21,26 @@
   "editor.tabSize": 2,
   "editor.tabCompletion": "on",
   "editor.formatOnSave": true,
-  "editor.colorDecorators": true,
-  "editor.autoClosingBrackets": "always",
-  "editor.autoClosingQuotes": "always",
-  "editor.autoClosingDelete": "always",
-  "html.autoClosingTags": true,
-  "editor.renderWhitespace": "selection",
+  "editor.detectIndentation": false,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.stickyScroll.enabled": true,
+
+  // Editor settings - Native features (replacing extensions)
+  "editor.colorDecorators": true,          // Replaces Color Highlight extension
+  "editor.autoClosingBrackets": "always",  // Replaces Auto Close Tag
+  "editor.autoClosingQuotes": "always",    // Replaces Auto Close Tag
+  "editor.autoClosingDelete": "always",    // Replaces Auto Close Tag
+  "editor.linkedEditing": true,            // Replaces Auto Rename Tag
+  "html.autoClosingTags": true,            // Replaces Auto Close Tag
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.emptySelectionClipboard": false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
-  "editor.detectIndentation": false,
-  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-  "editor.linkedEditing": true,
-  "editor.inlineSuggest.suppressSuggestions": true,
-  "editor.minimap.enabled": false,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.stickyScroll.enabled": true,
 
   // Workbench settings
   "workbench.colorTheme": "Visual Studio Dark",
@@ -37,12 +49,22 @@
   "workbench.statusBar.visible": true,
   "workbench.editor.enablePreview": false,
   "workbench.tree.indent": 14,
-  "workbench.layoutControl.enabled": false,
   "workbench.activityBar.location": "top",
   "workbench.sideBar.location": "right",
-  "workbench.iconTheme": "vs-minimal",
+  "workbench.iconTheme": "vs-minimal",     // Native minimal theme
   "workbench.list.smoothScrolling": true,
-  "workbench.panel.showLabels": false,
+
+  // Python development settings
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "black",
+  "python.formatting.blackArgs": ["--line-length", "120"],
+  "python.sortImports.path": "isort",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.autoImportCompletions": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.debugging.debugJustMyCode": false,
 
   // Explorer settings
   "explorer.compactFolders": false,
@@ -60,7 +82,11 @@
   // Files settings
   "files.associations": {
     "*.js": "javascriptreact",
-    "*.vue": "vue"
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.vue": "vue",
+    "*.py": "python"
   },
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
@@ -73,7 +99,7 @@
   "window.title": "${rootName}",
   "window.newWindowDimensions": "offset",
 
-  // Search settings
+  // Search settings - Optimized for performance
   "search.useIgnoreFiles": true,
   "search.exclude": {
     "**/node_modules": true,
@@ -87,7 +113,10 @@
     "**/.tailwind.config*": true,
     "**/.postcss.config*": true,
     "**/.env*": true,
-    "**/.next*": true
+    "**/.next*": true,
+    "**/.git": true,
+    "**/dist": true,
+    "**/build": true
   },
 
   // Git settings
@@ -102,59 +131,61 @@
   "prettier.singleQuote": true,
   "prettier.semi": false,
 
-  // Prettier DefaultFormatter settings
+  // Language-specific formatter settings
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
 
-  // Cody settings
-  // "cody.autocomplete.disableInsideComments": true,
-  // "cody.commandHints.enabled": false,
-  // "cody.autocomplete.formatOnAccept": true,
-  // "cody.codeActions.enabled": false,
-  // "cody.suggestions.mode": "autocomplete",
-  // "cody.debug.verbose": true,
-  // "cody.autocomplete.triggerDelay": 1000,
+  // Tailwind CSS settings
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.colorDecorators": true,
+  "tailwindCSS.validate": true,
+  "tailwindCSS.suggestions": true,
+  "css.validate": false,
 
-  // Terminal settings
+  // Terminal settings - Optimized for performance
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.confirmOnKill": "never",
   "terminal.integrated.initialHint": false,
   "terminal.integrated.tabs.enabled": false,
 
-  // Misc settings
-  "breadcrumbs.enabled": false,
+  // JavaScript/TypeScript settings
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "extensions.ignoreRecommendations": true,
-  "extensions.autoCheckUpdates": false,
-  "extensions.autoUpdate": false
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true
 }
