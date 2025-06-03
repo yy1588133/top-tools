@@ -1,7 +1,7 @@
 # VSCode Extensions
 
-_Last updated: 2025-06-02_
-_Current setup: W11-debloated, VSCodium_
+_Last updated: 2025-06-03_
+_Current setup: Windows 11 debloated, Git, NVM, VSCodium, telemetry off_
 
 ## Quick Reference
 
@@ -14,6 +14,7 @@ _Current setup: W11-debloated, VSCodium_
 ### Status Definitions
 
 - **Active**: Currently recommended and maintained
+- **Standby**: Recommended but not currently installed
 - **Replaced**: Superseded by native features
 - **Deprecated**: No longer available/supported
 
@@ -30,20 +31,20 @@ _Current setup: W11-debloated, VSCodium_
 | Cody                             | Replaced   | 🔴 High     | Cline                               |
 | Continue                         | Replaced   | 🔴 High     | Cline                               |
 | Color Highlight                  | Replaced   | 🟢 Low      | Native settings                     |
+| Editor Config                    | Replaced   | 🟢 Low      | Prettier                            |
 | Material Icon Theme              | Replaced   | 🟢 Low      | Native settings                     |
-| Black Formatter                  | Active     | 🟢 Low      | Python formatting                   |
+| Black Formatter                  | Standby    | 🟢 Low      | Python formatting                   |
+| isort                            | Standby    | 🟢 Low      | Python import sorting               |
+| Pylance                          | Standby    | 🟡 Medium   | Python language support             |
+| Python                           | Standby    | 🟡 Medium   | Python development environment      |
+| Python Debugger                  | Standby    | 🟡 Medium   | Python debugging support            |
+| Python Indent                    | Standby    | 🟢 Low      | Python indentation                  |
 | Bookmarks                        | Active     | 🟢 Low      | Code navigation                     |
 | Cline                            | Active     | 🟡 Medium   | AI code assistant                   |
-| Editor Config                    | Replaced   | 🟢 Low      | Prettier                            |
 | ES7+ Snippets                    | Active     | 🟢 Low      | JavaScript and React/Redux snippets |
-| isort                            | Active     | 🟢 Low      | Python import sorting               |
 | JavaScript ES6 snippets          | Active     | 🟢 Low      | JavaScript code snippets            |
 | Markdown Preview Mermaid Support | Active     | 🟢 Low      | Mermaid diagram support             |
 | Prettier                         | Active     | 🟢 Low      | Code formatter                      |
-| Pylance                          | Active     | 🟡 Medium   | Python language support             |
-| Python                           | Active     | 🟡 Medium   | Python development environment      |
-| Python Debugger                  | Active     | 🟡 Medium   | Python debugging support            |
-| Python Indent                    | Active     | 🟢 Low      | Python indentation                  |
 | SVG                              | Active     | 🟢 Low      | SVG editing and visualization       |
 | Tailwind CSS IntelliSense        | Active     | 🟡 Medium   | Tailwind CSS tooling                |
 | WakaTime                         | Active     | 🟢 Low      | Time tracking for developers        |
@@ -125,10 +126,6 @@ Implement reset API, email template, and form component
 Closes #123
 ```
 
-## Active Extensions
-
-[Detailed descriptions of active extensions moved to maintain readability. See original content for full descriptions.]
-
 ## Troubleshooting Guide
 
 ### General Issues
@@ -203,5 +200,3 @@ Closes #123
 - [Extension API](https://code.visualstudio.com/api)
 - [Performance Issues](https://code.visualstudio.com/docs/supporting/troubleshoot-performance)
 - [Settings Reference](https://code.visualstudio.com/docs/getstarted/settings)
-
-[Original detailed extension descriptions preserved but moved to maintain document readability]

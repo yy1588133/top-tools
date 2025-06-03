@@ -13,6 +13,7 @@ A curated collection of essential development tools, extensions, and configurati
 ## 🚀 Quick Start
 
 ### VSCode Setup
+
 1. Install [VSCodium](https://vscodium.com/) or VSCode
 2. Review the [active extensions list](src/vscode.md#active-extensions)
 3. Apply the [JSON settings](src/settings.json) to your editor
@@ -21,12 +22,14 @@ A curated collection of essential development tools, extensions, and configurati
 6. Verify extension compatibility
 
 ### Browser Setup
+
 1. Install the recommended [browser extensions](src/browser.md)
 2. Configure extension settings for optimal workflow
 3. Import development bookmarks from [fav.html](/src/fav.html)
 4. Test extension functionality and performance
 
 ### Performance Optimization
+
 - Enable only necessary extensions
 - Use native features when available
 - Configure automatic garbage collection
@@ -38,18 +41,21 @@ A curated collection of essential development tools, extensions, and configurati
 The VSCode extensions are categorized as:
 
 ### Active
+
 - Currently recommended and in use
 - Regularly tested and validated
 - Performance impact assessed
 - Security requirements met
 
 ### Replaced
+
 - Superseded by native features or better alternatives
 - Migration guides available
 - Configuration examples for native alternatives
 - Performance comparison documentation
 
 ### Deprecated
+
 - No longer available or maintained
 - Security or compatibility issues
 - Better alternatives available
@@ -60,6 +66,7 @@ The VSCode extensions are categorized as:
 The project uses a Memory Bank system for comprehensive documentation:
 
 ### Structure
+
 - `projectbrief.md` - Core project requirements and scope
 - `productContext.md` - Purpose and user experience goals
 - `systemPatterns.md` - Architecture and design patterns
@@ -68,6 +75,7 @@ The project uses a Memory Bank system for comprehensive documentation:
 - `progress.md` - Project status and evolution
 
 ### Purpose
+
 - Maintain consistent documentation
 - Track project evolution
 - Document technical decisions
@@ -76,9 +84,10 @@ The project uses a Memory Bank system for comprehensive documentation:
 
 ## 🔄 Updates
 
-Last updated: 2025-06-02
+Last updated: 2025-06-03
 
 This repository is regularly updated to reflect:
+
 - Latest tool recommendations
 - Configuration optimizations
 - Native feature alternatives
@@ -90,6 +99,7 @@ This repository is regularly updated to reflect:
 We welcome contributions to improve this toolset:
 
 ### Guidelines
+
 1. Review the Memory Bank documentation
 2. Test tools and configurations thoroughly
 3. Document performance impacts
@@ -97,6 +107,7 @@ We welcome contributions to improve this toolset:
 5. Update relevant documentation
 
 ### Validation Requirements
+
 - Verify tool compatibility
 - Test configuration changes
 - Check documentation accuracy
@@ -104,6 +115,7 @@ We welcome contributions to improve this toolset:
 - Assess performance impact
 
 ### Documentation Standards
+
 - Use clear, concise descriptions
 - Include setup instructions
 - Provide usage examples
