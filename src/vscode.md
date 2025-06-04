@@ -1,6 +1,6 @@
 # VSCode Extensions
 
-_Last updated: 2025-06-03_
+_Last updated: 2025-06-04_
 _Current setup: Windows 11 debloated, Git, NVM, VSCodium, telemetry off_
 
 ## Quick Reference
@@ -31,7 +31,6 @@ _Current setup: Windows 11 debloated, Git, NVM, VSCodium, telemetry off_
 | Cody                             | Replaced   | 🔴 High     | Cline                               |
 | Continue                         | Replaced   | 🔴 High     | Cline                               |
 | Color Highlight                  | Replaced   | 🟢 Low      | Native settings                     |
-| Editor Config                    | Replaced   | 🟢 Low      | Prettier                            |
 | Material Icon Theme              | Replaced   | 🟢 Low      | Native settings                     |
 | Black Formatter                  | Standby    | 🟢 Low      | Python formatting                   |
 | isort                            | Standby    | 🟢 Low      | Python import sorting               |
@@ -41,6 +40,7 @@ _Current setup: Windows 11 debloated, Git, NVM, VSCodium, telemetry off_
 | Python Indent                    | Standby    | 🟢 Low      | Python indentation                  |
 | Bookmarks                        | Active     | 🟢 Low      | Code navigation                     |
 | Cline                            | Active     | 🟡 Medium   | AI code assistant                   |
+| Editor Config                    | Active     | 🟢 Low      | Maintain consistent coding styles   |
 | ES7+ Snippets                    | Active     | 🟢 Low      | JavaScript and React/Redux snippets |
 | JavaScript ES6 snippets          | Active     | 🟢 Low      | JavaScript code snippets            |
 | Markdown Preview Mermaid Support | Active     | 🟢 Low      | Mermaid diagram support             |
@@ -193,6 +193,20 @@ Closes #123
    - Regular maintenance
    - Profile monitoring
    - Cache management
+
+### EditorConfig and Prettier Usage
+
+When using an `.editorconfig` file, it is essential to also use a `.prettierrc` file together to avoid conflicts in formatting. The `.prettierrc` file should follow this structure:
+
+```json
+{
+  "editorconfig": true,
+  "trailingComma": "all",
+  "printWidth": 120,
+  "singleQuote": true,
+  "semi": false
+}
+```
 
 ## Additional Resources
 

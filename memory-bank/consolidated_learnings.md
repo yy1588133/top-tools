@@ -28,6 +28,21 @@ This file contains curated, summarized, and actionable insights derived from the
 - Educate all contributors on the importance and use of these files.
 - Regularly review and update the consolidated learnings to reflect evolving project knowledge.
 
+## EditorConfig and Prettier Integration
+
+- When using an `.editorconfig` file, always pair it with a `.prettierrc` configuration to avoid formatting conflicts.
+- Recommended `.prettierrc` structure for projects using EditorConfig:
+  ```json
+  {
+    "editorconfig": true,
+    "trailingComma": "all",
+    "printWidth": 80,
+    "singleQuote": true,
+    "semi": false
+  }
+  ```
+- This pairing ensures consistent formatting behavior and prevents conflicts between EditorConfig and Prettier settings.
+
 ## Recent Updates
 
 - Confirmed the necessity and structure of the memory bank reflection protocol.
@@ -37,10 +52,12 @@ This file contains curated, summarized, and actionable insights derived from the
 - Recommended promoting awareness of the memory bank protocol among team members.
 
 ---
+
 Date: 2025-06-03
 Update: Memory Bank Reflection Enhancement
 
 Insights:
+
 - Completed a comprehensive review and update of the memory bank reflection process.
 - Reinforced the critical role of raw reflection logging after each task.
 - Emphasized the consolidation and pruning steps to maintain knowledge clarity.
@@ -49,6 +66,7 @@ Insights:
 - Highlighted the importance of team education to ensure protocol adherence.
 
 Action Items:
+
 - Develop and implement templates for raw reflection entries.
 - Investigate automation tools for consolidation and pruning.
 - Conduct training sessions to raise awareness of memory bank practices.
