@@ -28,12 +28,12 @@
   "editor.stickyScroll.enabled": true,
 
   // Editor settings - Native features (replacing extensions)
-  "editor.colorDecorators": true,          // Replaces Color Highlight extension
-  "editor.autoClosingBrackets": "always",  // Replaces Auto Close Tag
-  "editor.autoClosingQuotes": "always",    // Replaces Auto Close Tag
-  "editor.autoClosingDelete": "always",    // Replaces Auto Close Tag
-  "editor.linkedEditing": true,            // Replaces Auto Rename Tag
-  "html.autoClosingTags": true,            // Replaces Auto Close Tag
+  "editor.colorDecorators": true, // Replaces Color Highlight extension
+  "editor.autoClosingBrackets": "always", // Replaces Auto Close Tag
+  "editor.autoClosingQuotes": "always", // Replaces Auto Close Tag
+  "editor.autoClosingDelete": "always", // Replaces Auto Close Tag
+  "editor.linkedEditing": true, // Replaces Auto Rename Tag
+  "html.autoClosingTags": true, // Replaces Auto Close Tag
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.inlineSuggest.suppressSuggestions": true,
@@ -51,7 +51,7 @@
   "workbench.tree.indent": 14,
   "workbench.activityBar.location": "top",
   "workbench.sideBar.location": "right",
-  "workbench.iconTheme": "vs-minimal",     // Native minimal theme
+  "workbench.iconTheme": "vs-minimal", // Native minimal theme
   "workbench.list.smoothScrolling": true,
 
   // Python development settings
@@ -92,8 +92,7 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.eol": "\n",
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 1000,
+  "files.autoSave": "off",
 
   // Window settings
   "window.title": "${rootName}",
@@ -161,12 +160,6 @@
   },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "always"
-    }
   },
 
   // Tailwind CSS settings
