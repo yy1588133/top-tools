@@ -1,28 +1,42 @@
 # Git Configuration Guide
 
-_Last updated: 2025-06-03_
+_Last updated: 2025-06-04_
+
+---
 
 ## Reference Configuration Files
 
-The following configuration files are located in the `src/gitconfig/` directory and are referenced throughout this guide:
+The following configuration files are located in the `src/gitconfig/` directory and are referenced throughout this
+guide:
 
-- `.bashrc`: Contains shell environment settings and Git aliases.
-- `.bash_profile`: Loads `.bashrc` and sets up the shell environment.
-- `.gitconfig`: Stores user-specific Git configuration settings.
+- **`.bashrc`**: Contains shell environment settings and Git aliases.
+- **`.bash_profile`**: Loads `.bashrc` and sets up the shell environment.
+- **`.gitconfig`**: Stores user-specific Git configuration settings.
+
+---
 
 ## Introduction to Git
-Git is a distributed version control system that allows developers to track changes in their code, collaborate with others, and manage project history efficiently.
+
+Git is a distributed version control system that allows developers to track changes in their code, collaborate with
+others, and manage project history efficiently.
+
+---
 
 ## Installing Git on Windows
+
 1. Visit the [official Git website](https://git-scm.com/) to download the Git installer for Windows.
 2. Run the installer and follow the on-screen instructions.
 3. During installation, ensure that the option to add Git to your system PATH is selected.
 4. Optionally, install Git Bash for a Unix-like terminal experience on Windows.
 
+---
+
 ## Configuring Git
+
 Git configuration is managed through several files, including `.gitconfig`, `.bashrc`, and `.bash_profile`.
 
-### .gitconfig
+### `.gitconfig`
+
 This file stores user-specific Git configurations. Below are some common settings:
 
 ```ini
@@ -38,7 +52,8 @@ This file stores user-specific Git configurations. Below are some common setting
     lg = log --oneline --graph --decorate
 ```
 
-### .bashrc
+### `.bashrc`
+
 This file is used to set up the shell environment and Git aliases. Example content:
 
 ```bash
@@ -60,7 +75,8 @@ alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 alias gm='git merge'
 ```
 
-### .bash_profile
+### `.bash_profile`
+
 This file is used to load `.bashrc` and set up the environment:
 
 ```bash
@@ -69,18 +85,24 @@ test -f ~/.profile && . ~/.profile
 test -f ~/.bashrc && . ~/.bashrc
 ```
 
+---
+
 ## Common Git Commands and Aliases
+
 - `git status`: Check the status of your repository.
 - `git commit`: Commit changes to the repository.
 - `git push`: Push changes to a remote repository.
 - `git pull`: Pull changes from a remote repository.
 - `git branch`: List, create, or delete branches.
 
+---
+
 ## Creating and Configuring an SSH Key
 
 SSH keys are used to securely connect to remote repositories. Here's how to create and configure an SSH key:
 
 1. **Generate an SSH Key**:
+
    - **Recommended**: Use ED25519 for better security and performance.
      ```bash
      ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -91,6 +113,7 @@ SSH keys are used to securely connect to remote repositories. Here's how to crea
      ```
 
 2. **Add the SSH Key to the SSH Agent**:
+
    - Start the SSH agent in the background:
      ```bash
      eval "$(ssh-agent -s)"
@@ -108,6 +131,8 @@ SSH keys are used to securely connect to remote repositories. Here's how to crea
    - Go to GitHub, navigate to **Settings > SSH and GPG keys**, and click **New SSH key**.
    - Paste your key and save.
 
+---
+
 ## Using Git Aliases
 
 Git aliases simplify command usage. Here are some examples from the `.bashrc` file:
@@ -120,15 +145,23 @@ Git aliases simplify command usage. Here are some examples from the `.bashrc` fi
 
 To use an alias, simply type it in the terminal. For example, use `gs` to quickly check the status of your repository.
 
+---
+
 ## Common Issues and How to Fix Them
 
 ### SSH Authentication Errors
+
 - **Issue**: SSH authentication fails.
 - **Solution**: Ensure your SSH key is added to the SSH agent and associated with your GitHub account.
 
 ### Alias Conflicts
+
 - **Issue**: An alias doesn't work as expected.
 - **Solution**: Check the `.bashrc` file for correct alias definitions and ensure there are no conflicting aliases.
+
+---
+
+## Best Practices
 
 - Regularly update Git and your configuration files.
 - Use meaningful commit messages and maintain a clean commit history.

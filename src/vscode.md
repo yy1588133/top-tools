@@ -1,7 +1,9 @@
 # VSCode Extensions
 
-_Last updated: 2025-06-04_
+_Last updated: 2025-06-04_  
 _Current setup: Windows 11 debloated, Git, NVM, VSCodium, telemetry off_
+
+---
 
 ## Quick Reference
 
@@ -18,36 +20,41 @@ _Current setup: Windows 11 debloated, Git, NVM, VSCodium, telemetry off_
 - **Replaced**: Superseded by native features
 - **Deprecated**: No longer available/supported
 
+---
+
 ## Summary Table
 
-| Extension Name                   | Status     | Performance | Notes/Replacement                   |
-| -------------------------------- | ---------- | ----------- | ----------------------------------- |
-| IntelliCode                      | Deprecated | 🔴 High     | Not available on VSCodium           |
-| Minify                           | Deprecated | 🟡 Medium   | Not available on VSCodium           |
-| Smart Column Indenter            | Deprecated | 🟢 Low      | Not available on VSCodium           |
-| Auto Close Tag                   | Replaced   | 🟢 Low      | Native settings                     |
-| Auto Commit Message              | Replaced   | 🟢 Low      | Keyboard shortcuts                  |
-| Auto Rename Tag                  | Replaced   | 🟢 Low      | Native settings                     |
-| Cody                             | Replaced   | 🔴 High     | Cline                               |
-| Continue                         | Replaced   | 🔴 High     | Cline                               |
-| Color Highlight                  | Replaced   | 🟢 Low      | Native settings                     |
-| Material Icon Theme              | Replaced   | 🟢 Low      | Native settings                     |
-| Black Formatter                  | Standby    | 🟢 Low      | Python formatting                   |
-| isort                            | Standby    | 🟢 Low      | Python import sorting               |
-| Pylance                          | Standby    | 🟡 Medium   | Python language support             |
-| Python                           | Standby    | 🟡 Medium   | Python development environment      |
-| Python Debugger                  | Standby    | 🟡 Medium   | Python debugging support            |
-| Python Indent                    | Standby    | 🟢 Low      | Python indentation                  |
-| Bookmarks                        | Active     | 🟢 Low      | Code navigation                     |
-| Cline                            | Active     | 🟡 Medium   | AI code assistant                   |
-| Editor Config                    | Active     | 🟢 Low      | Maintain consistent coding styles   |
-| ES7+ Snippets                    | Active     | 🟢 Low      | JavaScript and React/Redux snippets |
-| JavaScript ES6 snippets          | Active     | 🟢 Low      | JavaScript code snippets            |
-| Markdown Preview Mermaid Support | Active     | 🟢 Low      | Mermaid diagram support             |
-| Prettier                         | Active     | 🟢 Low      | Code formatter                      |
-| SVG                              | Active     | 🟢 Low      | SVG editing and visualization       |
-| Tailwind CSS IntelliSense        | Active     | 🟡 Medium   | Tailwind CSS tooling                |
-| WakaTime                         | Active     | 🟢 Low      | Time tracking for developers        |
+| Extension Name                   | Status     | Performance | Notes/Replacement                                       |
+| -------------------------------- | ---------- | ----------- | ------------------------------------------------------- |
+| IntelliCode                      | Deprecated | 🔴 High     | Not available on VSCodium                               |
+| Minify                           | Deprecated | 🟡 Medium   | Not available on VSCodium                               |
+| Smart Column Indenter            | Deprecated | 🟢 Low      | Not available on VSCodium                               |
+| Auto Close Tag                   | Replaced   | 🟢 Low      | Native settings                                         |
+| Auto Commit Message              | Replaced   | 🟢 Low      | Keyboard shortcuts                                      |
+| Auto Rename Tag                  | Replaced   | 🟢 Low      | Native settings                                         |
+| Cody                             | Replaced   | 🔴 High     | Cline                                                   |
+| Continue                         | Replaced   | 🔴 High     | Cline                                                   |
+| Color Highlight                  | Replaced   | 🟢 Low      | Native settings                                         |
+| Material Icon Theme              | Replaced   | 🟢 Low      | Native settings                                         |
+| Black Formatter                  | Standby    | 🟢 Low      | Python formatting                                       |
+| isort                            | Standby    | 🟢 Low      | Python import sorting                                   |
+| Pylance                          | Standby    | 🟡 Medium   | Python language support                                 |
+| Python                           | Standby    | 🟡 Medium   | Python development environment                          |
+| Python Debugger                  | Standby    | 🟡 Medium   | Python debugging support                                |
+| Python Indent                    | Standby    | 🟢 Low      | Python indentation                                      |
+| Bookmarks                        | Active     | 🟢 Low      | Code navigation                                         |
+| Cline                            | Active     | 🟡 Medium   | AI code assistant                                       |
+| Editor Config                    | Active     | 🟢 Low      | Maintain consistent coding styles                       |
+| ES7+ Snippets                    | Active     | 🟢 Low      | JavaScript and React/Redux snippets                     |
+| ESLint                           | Active     | 🟢 Low      | JavaScript and TypeScript linting and code quality tool |
+| JavaScript ES6 snippets          | Active     | 🟢 Low      | JavaScript code snippets                                |
+| Markdown Preview Mermaid Support | Active     | 🟢 Low      | Mermaid diagram support                                 |
+| Prettier                         | Active     | 🟢 Low      | Code formatter                                          |
+| SVG                              | Active     | 🟢 Low      | SVG editing and visualization                           |
+| Tailwind CSS IntelliSense        | Active     | 🟡 Medium   | Tailwind CSS tooling                                    |
+| WakaTime                         | Active     | 🟢 Low      | Time tracking for developers                            |
+
+---
 
 ## Migration Guides
 
@@ -126,6 +133,8 @@ Implement reset API, email template, and form component
 Closes #123
 ```
 
+---
+
 ## Troubleshooting Guide
 
 ### General Issues
@@ -145,6 +154,7 @@ Closes #123
    - Clear workspace cache
 
 3. Configuration Conflicts
+
    - Check settings.json
    - Review workspace settings
    - Disable conflicting extensions
@@ -167,10 +177,13 @@ Closes #123
    - Verify node version
 
 3. Formatting Tools
+
    - Check formatter config
    - Validate file associations
    - Review workspace settings
    - Update language servers
+
+---
 
 ## Best Practices
 
@@ -189,14 +202,18 @@ Closes #123
    - Regular backups
 
 3. Performance
+
    - Minimal active extensions
    - Regular maintenance
    - Profile monitoring
    - Cache management
 
+---
+
 ### EditorConfig and Prettier Usage
 
-When using an `.editorconfig` file, it is essential to also use a `.prettierrc` file together to avoid conflicts in formatting. The `.prettierrc` file should follow this structure:
+When using an `.editorconfig` file, it is essential to also use a `.prettierrc` file together to avoid conflicts in
+formatting. The `.prettierrc` file should follow this structure:
 
 ```json
 {
@@ -207,6 +224,78 @@ When using an `.editorconfig` file, it is essential to also use a `.prettierrc` 
   "semi": false
 }
 ```
+
+**Note:** Once a local configuration file (e.g., `.prettierrc` or `.editorconfig`) is detected, VS Code's own formatting
+settings will not be applied.
+
+---
+
+## ESLint Extension Setup and Configuration
+
+To include ESLint in your project, follow these installation and configuration instructions:
+
+1. Add the following dev-dependencies to your `package.json`:
+
+```json
+"eslint": "^8.36.0",
+"@typescript-eslint/eslint-plugin": "^5.56.0",
+"eslint-config-prettier": "^8.8.0",
+"eslint-config-standard-with-typescript": "^34.0.1",
+"eslint-plugin-import": "^2.27.5",
+"eslint-plugin-n": "^15.6.1",
+"eslint-plugin-prettier": "^4.2.1",
+"eslint-plugin-promise": "^6.1.1",
+"eslint-plugin-react": "^7.32.2",
+"prettier": "^2.8.7"
+```
+
+2. This setup works only for the ESLint legacy configuration.
+
+3. Create a `.eslintrc.js` file in the root of your project with the following content:
+
+```js
+module.exports = {
+  root: true,
+  parser: '@typescript-eslint/parser',
+  env: {
+    browser: true,
+    es2021: true,
+    node: true
+  },
+  plugins: ['react', 'prettier', '@typescript-eslint'],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
+    'plugin:prettier/recommended'
+  ],
+  overrides: [],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module'
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
+  ignorePatterns: ['node_modules/', '_explicacoes/'],
+  rules: {
+    '@typescript-eslint/no-unused-vars': 'off'
+  }
+}
+```
+
+4. The `rules` section is fully customizable to fit your project's needs.
+
+5. As a good practice, include the following scripts in your `package.json`:
+
+```json
+"lint": "eslint ./**/*.{js,jsx,ts,tsx}",
+"lint:fix": "npm run lint -- --fix",
+```
+
+---
 
 ## Additional Resources
 

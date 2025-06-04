@@ -131,6 +131,14 @@
   "prettier.semi": false,
 
   // Language-specific formatter settings
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.proseWrap": "always",
+    "prettier.tabWidth": 2,
+    "prettier.trailingComma": "none",
+    "prettier.bracketSpacing": true,
+    "files.trimTrailingWhitespace": false
+  },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

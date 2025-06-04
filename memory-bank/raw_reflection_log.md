@@ -1,22 +1,28 @@
-<date>2025-06-04</date>
-<task>Update src/vscode.md to clarify EditorConfig and Prettier usage</task>
+---
+
+Date: 2025-06-04
+TaskRef: "Follow custom instructions for task execution"
 
 Learnings:
 
-- Clarified that when using an .editorconfig file, it must be used together with a .prettierrc file to avoid formatting conflicts.
-- Provided a recommended .prettierrc structure including "editorconfig": true, trailing commas, print width, single quotes, and no semicolons.
-- Added this guidance in the Best Practices section of src/vscode.md for clear visibility.
+- Following the custom instructions requires a strict protocol of reading and understanding the Memory Bank files before proceeding with any task.
+- The Cline Continuous Improvement Protocol mandates self-reflection and knowledge capture before task completion, ensuring continuous learning and improvement.
+- Clear separation of PLAN MODE and ACT MODE is essential for effective task execution, with PLAN MODE focusing on information gathering and planning, and ACT MODE on implementation.
+- Maintaining consistent documentation and adhering to commit message formats improves project maintainability and clarity.
+- Offering reflection and improvement suggestions on active .clinerules enhances the system's adaptability and user alignment.
 
 Difficulties:
 
-- None encountered; straightforward content addition.
+- None encountered during the review and understanding of the custom instructions.
 
 Successes:
 
-- Successfully integrated the note in a logical section without disrupting existing content.
-- Ensured formatting consistency and clarity in the added JSON example.
+- Successfully reviewed and synthesized the key aspects of the custom instructions.
+- Developed a clear plan aligned with the user's protocols for task execution.
+- Confirmed readiness to proceed with task execution following the custom instructions.
 
 Improvements_Identified_For_Consolidation:
 
-- Best practice to always pair EditorConfig with Prettier configuration to prevent formatting conflicts.
-- Recommended Prettier config structure for projects using EditorConfig.
+- Emphasize the importance of mode transitions and their distinct roles in the workflow.
+- Reinforce the value of self-reflection and knowledge capture as integral to task completion.
+- Highlight the benefit of maintaining and updating .clinerules for continuous system improvement.

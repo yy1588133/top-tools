@@ -2,6 +2,8 @@
 
 A curated collection of essential development tools, extensions, and configurations for enhanced productivity.
 
+---
+
 ## 📋 Contents
 
 - [🌐 Browser Extensions](src/browser.md) - Productivity and development browser extensions
@@ -9,6 +11,8 @@ A curated collection of essential development tools, extensions, and configurati
 - [🔗 Favorite Links](/src/fav.html) - Curated development resources and links
 - [⚙️ JSON Settings](src/settings.json) - VSCode configuration settings
 - [🔧 VSCode Extensions](src/vscode.md) - Essential extensions for VSCode/VSCodium development
+
+---
 
 ## 🚀 Quick Start
 
@@ -36,9 +40,11 @@ A curated collection of essential development tools, extensions, and configurati
 - Monitor extension resource usage
 - Regular cleanup of unused extensions
 
+---
+
 ## 📊 Extension Status
 
-The VSCode extensions are categorized as:
+VSCode extensions are categorized as follows:
 
 ### Active
 
@@ -61,6 +67,8 @@ The VSCode extensions are categorized as:
 - Better alternatives available
 - Removal recommended
 
+---
+
 ## 📚 Memory Bank
 
 The project uses a Memory Bank system for comprehensive documentation:
@@ -82,9 +90,11 @@ The project uses a Memory Bank system for comprehensive documentation:
 - Guide future development
 - Ensure knowledge persistence
 
+---
+
 ## 🔄 Updates
 
-Last updated: 2025-06-04
+_Last updated: 2025-06-04_
 
 This repository is regularly updated to reflect:
 
@@ -93,6 +103,8 @@ This repository is regularly updated to reflect:
 - Native feature alternatives
 - Performance improvements
 - Security considerations
+
+---
 
 ## 📝 Contributing
 
@@ -121,6 +133,8 @@ We welcome contributions to improve this toolset:
 - Provide usage examples
 - Document known issues
 - Maintain consistent formatting
+
+---
 
 ## 📄 License
 
