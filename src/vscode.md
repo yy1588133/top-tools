@@ -1,7 +1,7 @@
 # VSCode Extensions
 
-_Last updated: 2025-06-04_  
-_Current setup: Windows 11 debloated, Git, NVM, VSCodium, telemetry off_
+_Last updated: 2025-06-10_  
+_Current setup: Windows 11 debloated, Git, Node.js, Python, VSCodium, telemetry off_
 
 ---
 
