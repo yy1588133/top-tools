@@ -1,6 +1,7 @@
 # Consolidated Learnings
 
-This file contains curated, summarized, and actionable insights derived from the raw reflection log. It serves as the primary, refined knowledge base for long-term use.
+This file contains curated, summarized, and actionable insights derived from the raw reflection log. It serves as the
+primary, refined knowledge base for long-term use.
 
 ## Memory Bank Reflection Protocol
 
@@ -9,7 +10,8 @@ This file contains curated, summarized, and actionable insights derived from the
   - `consolidated_learnings.md` for distilled, actionable knowledge.
 - Before task completion, review and analyze the task to identify learnings, difficulties, and successes.
 - Log detailed reflections in `raw_reflection_log.md` with clear task references and dates.
-- Periodically consolidate raw reflections into this file, organizing insights by topic and ensuring clarity and actionability.
+- Periodically consolidate raw reflections into this file, organizing insights by topic and ensuring clarity and
+  actionability.
 - Prune the raw reflection log to keep it focused on recent, unprocessed reflections.
 - This process supports continuous improvement, knowledge retention, and avoids redundant effort.
 
@@ -54,22 +56,29 @@ This file contains curated, summarized, and actionable insights derived from the
 ## Followed Custom Instructions Reflection
 
 - Reviewed and synthesized the key aspects of the custom instructions for task execution.
-- Recognized the importance of strict protocol adherence for reading and understanding Memory Bank files before task execution.
+- Recognized the importance of strict protocol adherence for reading and understanding Memory Bank files before task
+  execution.
 - Affirmed the value of the Cline Continuous Improvement Protocol for self-reflection and knowledge capture.
 - Highlighted the clear separation and roles of PLAN MODE and ACT MODE in the workflow.
 - Noted the benefits of consistent documentation and commit message formatting.
 - Emphasized offering reflection and improvement suggestions on active .clinerules for system adaptability.
 
-## Improvements Identified for Consolidation
+## Improvements Identified For Consolidation
 
 - Emphasize the importance of mode transitions and their distinct roles in the workflow.
 - Reinforce the value of self-reflection and knowledge capture as integral to task completion.
 - Highlight the benefit of maintaining and updating .clinerules for continuous system improvement.
 
+## Editing Markdown Tables in Source Files
+
+- For editing large or complex markdown tables in source files, prefer `write_to_file` over `replace_in_file` to avoid
+  partial match errors.
+- Always account for editor auto-formatting effects (spacing, alignment) when planning targeted edits, especially with
+  markdown tables.
+
 ---
 
-Date: 2025-06-03
-Update: Memory Bank Reflection Enhancement
+Date: 2025-06-03 Update: Memory Bank Reflection Enhancement
 
 Insights:
 

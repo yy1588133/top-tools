@@ -36,20 +36,20 @@ _Current setup: Windows 11 debloated, Git, NVM, VSCodium, telemetry off_
 | Continue                         | Replaced   | 🔴 High     | Cline                                                   |
 | Color Highlight                  | Replaced   | 🟢 Low      | Native settings                                         |
 | Material Icon Theme              | Replaced   | 🟢 Low      | Native settings                                         |
-| Black Formatter                  | Standby    | 🟢 Low      | Python formatting                                       |
-| isort                            | Standby    | 🟢 Low      | Python import sorting                                   |
-| Pylance                          | Standby    | 🟡 Medium   | Python language support                                 |
-| Python                           | Standby    | 🟡 Medium   | Python development environment                          |
-| Python Debugger                  | Standby    | 🟡 Medium   | Python debugging support                                |
-| Python Indent                    | Standby    | 🟢 Low      | Python indentation                                      |
+| Black Formatter                  | Active     | 🟢 Low      | Python formatting                                       |
 | Bookmarks                        | Active     | 🟢 Low      | Code navigation                                         |
 | Cline                            | Active     | 🟡 Medium   | AI code assistant                                       |
 | Editor Config                    | Active     | 🟢 Low      | Maintain consistent coding styles                       |
 | ES7+ Snippets                    | Active     | 🟢 Low      | JavaScript and React/Redux snippets                     |
 | ESLint                           | Active     | 🟢 Low      | JavaScript and TypeScript linting and code quality tool |
+| isort                            | Active     | 🟢 Low      | Python import sorting                                   |
 | JavaScript ES6 snippets          | Active     | 🟢 Low      | JavaScript code snippets                                |
 | Markdown Preview Mermaid Support | Active     | 🟢 Low      | Mermaid diagram support                                 |
+| Postman                          | Active     | 🟡 Medium   | API development and testing                             |
 | Prettier                         | Active     | 🟢 Low      | Code formatter                                          |
+| Python                           | Active     | 🟡 Medium   | Python development environment                          |
+| Python Debugger                  | Active     | 🟡 Medium   | Python debugging support                                |
+| Python Indent                    | Active     | 🟢 Low      | Python indentation                                      |
 | SVG                              | Active     | 🟢 Low      | SVG editing and visualization                           |
 | Tailwind CSS IntelliSense        | Active     | 🟡 Medium   | Tailwind CSS tooling                                    |
 | WakaTime                         | Active     | 🟢 Low      | Time tracking for developers                            |

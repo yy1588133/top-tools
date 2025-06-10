@@ -1,28 +1,28 @@
 ---
-
-Date: 2025-06-04
-TaskRef: "Follow custom instructions for task execution"
+Date: 2025-06-10
+TaskRef: 'Add Postman as Active extension in src/vscode.md'
 
 Learnings:
-
-- Following the custom instructions requires a strict protocol of reading and understanding the Memory Bank files before proceeding with any task.
-- The Cline Continuous Improvement Protocol mandates self-reflection and knowledge capture before task completion, ensuring continuous learning and improvement.
-- Clear separation of PLAN MODE and ACT MODE is essential for effective task execution, with PLAN MODE focusing on information gathering and planning, and ACT MODE on implementation.
-- Maintaining consistent documentation and adhering to commit message formats improves project maintainability and clarity.
-- Offering reflection and improvement suggestions on active .clinerules enhances the system's adaptability and user alignment.
+  - Learned that precise replace_in_file operations on large markdown tables can fail due to exact match requirements
+    and auto-formatting differences.
+  - Using write_to_file to overwrite the entire file is a reliable fallback for large or complex edits.
+  - Postman extension is appropriately categorized as Active with medium performance impact for API development and
+    testing in VSCode extension documentation.
+  - Auto-formatting by user's editor can affect spacing and alignment in markdown tables, which must be accounted for in
+    future edits.
 
 Difficulties:
-
-- None encountered during the review and understanding of the custom instructions.
+  - Multiple failed attempts to insert a new row in the markdown table using replace_in_file due to exact content
+    mismatch.
+  - Need to carefully consider editor auto-formatting effects on file content when planning targeted edits.
 
 Successes:
-
-- Successfully reviewed and synthesized the key aspects of the custom instructions.
-- Developed a clear plan aligned with the user's protocols for task execution.
-- Confirmed readiness to proceed with task execution following the custom instructions.
+  - Successfully updated src/vscode.md with Postman extension included.
+  - Maintained alphabetical order and consistent formatting in the summary table.
+  - Followed custom instructions and user requirements precisely.
 
 Improvements_Identified_For_Consolidation:
-
-- Emphasize the importance of mode transitions and their distinct roles in the workflow.
-- Reinforce the value of self-reflection and knowledge capture as integral to task completion.
-- Highlight the benefit of maintaining and updating .clinerules for continuous system improvement.
+  - Strategy for editing markdown tables in source files:
+      prefer write_to_file for large or complex tables to avoid partial match errors.
+  - Awareness of editor auto-formatting effects on markdown content and implications for replace_in_file tool usage.
+---
