@@ -75,6 +75,10 @@ primary, refined knowledge base for long-term use.
   partial match errors.
 - Always account for editor auto-formatting effects (spacing, alignment) when planning targeted edits, especially with
   markdown tables.
+- Learned that precise `replace_in_file` operations on large markdown tables can fail due to exact match requirements
+  and auto-formatting differences; using `write_to_file` to overwrite the entire file is a reliable fallback.
+- Noted that auto-formatting by the user's editor can affect spacing and alignment in markdown tables, which must be
+  considered for future edits.
 
 ---
 
