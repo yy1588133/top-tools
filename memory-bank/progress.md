@@ -33,6 +33,7 @@
   - Repository structure setup and initial categorization of tools.
   - Core memory bank documentation established.
   - Updates to browser and VSCode extension documentation completed in early June 2025.
+  - Renamed `src/installed-windows-programs.md` to `src/windows.md` and updated references in `README.md` on 6/27/2025.
 - **Not Started**:
   - Automation for tool status updates.
   - Community feedback integration.

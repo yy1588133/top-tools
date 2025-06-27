@@ -14,6 +14,8 @@ documentation to ensure accuracy and usefulness for developers.
   categories.
 - **6/26/2025**: Initiated a comprehensive update of the memory bank to align with the latest project status and user
   requirements.
+- **6/27/2025**: Renamed `src/installed-windows-programs.md` to `src/windows.md` and updated references in `README.md`
+  to maintain consistency.
 
 ## Next Steps
 

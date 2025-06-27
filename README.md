@@ -12,6 +12,7 @@ A curated collection of essential development tools, extensions, and configurati
 - [⚙️ JSON Settings](src/settings.json) - VSCode configuration settings
 - [🔧 VSCode Extensions](src/vscode.md) - Essential extensions for VSCode/VSCodium development
 - [📌 Git Configuration](src/gitconfig.md) - Git configuration settings and files
+- [💻 Installed Windows Programs](src/windows.md) - List of installed Windows programs with links
 
 ---
 
