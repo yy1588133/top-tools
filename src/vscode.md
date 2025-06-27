@@ -51,6 +51,8 @@ _Last updated: 2025-06-26_ _Current setup: Windows 11 debloated, Git, Node.js, P
 | Python Indent                    | Active     | 🟢 Low      | Python indentation                                      |
 | SVG                              | Active     | 🟢 Low      | SVG editing and visualization                           |
 | Tailwind CSS IntelliSense        | Active     | 🟡 Medium   | Tailwind CSS tooling                                    |
+| markdownlint                     | Active     | 🟢 Low      | Linting for Markdown files to ensure style consistency  |
+| Markdown All in One              | Active     | 🟢 Low      | Comprehensive Markdown editing and formatting tools     |
 | WakaTime                         | Active     | 🟢 Low      | Time tracking for developers                            |
 
 ---
