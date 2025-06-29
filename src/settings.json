@@ -123,6 +123,9 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.ignoreRebaseWarning": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
 
   // Prettier settings
   "prettier.trailingComma": "all",

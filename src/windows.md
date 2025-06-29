@@ -14,7 +14,7 @@ includes a brief description, key features, performance impact, and relevant tag
 | Drive          | Latest  | Low                | Cloud storage solution         |
 | WSL            | Latest  | Medium             | Linux environment on Windows   |
 | Docker         | Latest  | High               | Containerization platform      |
-| PowerToys      | Latest  | Low                | Windows enhancement tools      |
+| Lightshot      | Latest  | Low                | Lightweight screenshot tool    |
 | Obsidian       | Latest  | Low                | Knowledge management tool      |
 | GitHub Desktop | Latest  | Low                | Git GUI client                 |
 | Responsively   | Latest  | Medium             | Responsive design testing      |
@@ -128,23 +128,23 @@ A knowledge base tool that works on top of a local folder of plain text Markdown
 
 ---
 
-### [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/)
+### [Lightshot](https://app.prntscr.com/)
 
-A set of utilities for power users to tune and streamline their Windows experience.
+A lightweight tool for capturing and sharing screenshots with ease.
 
 **Features:**
 
-- FancyZones for window management
-- PowerRename for bulk renaming
-- Keyboard Manager for key remapping
-- Image Resizer for quick image resizing
+- Quick screenshot capture
+- Easy annotation and editing
+- Direct upload for sharing
+- Customizable hotkeys
 
 **Performance Impact:** Low
 
 - Memory Usage: <100MB
 - CPU Impact: Minimal
 
-`utility` `windows-enhancement`
+`productivity` `screenshot`
 
 ---
 
