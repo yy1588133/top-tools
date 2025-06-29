@@ -1,6 +1,6 @@
 # VSCode Extensions
 
-_Last updated: 2025-06-26_ _Current setup: Windows 11 debloated, Git, Node.js, Python, VSCodium, telemetry off_
+_Last updated: 2025-06-28_ _Current setup: Windows 11 debloated, Git, Node.js, Python, VSCodium, telemetry off_
 
 ---
 
@@ -52,7 +52,12 @@ _Last updated: 2025-06-26_ _Current setup: Windows 11 debloated, Git, Node.js, P
 | SVG                              | Active     | 🟢 Low      | SVG editing and visualization                           |
 | Tailwind CSS IntelliSense        | Active     | 🟡 Medium   | Tailwind CSS tooling                                    |
 | markdownlint                     | Active     | 🟢 Low      | Linting for Markdown files to ensure style consistency  |
-| Markdown All in One              | Active     | 🟢 Low      | Comprehensive Markdown editing and formatting tools     |
+| Django                           | Active     | 🟡 Medium   | Django framework development                            |
+| Python Environment Manager       | Active     | 🟡 Medium   | Managing Python environments                            |
+| autoDocstring                    | Active     | 🟢 Low      | Generating docstrings for Python                        |
+| AREPL                            | Active     | 🟡 Medium   | Real-time Python code evaluation                        |
+| Markdown Preview GitHub          | Active     | 🟢 Low      | GitHub-flavored Markdown preview                        |
+| GitLens (Lower Version)          | Active     | 🟡 Medium   | Version control visualization (lower version)           |
 | WakaTime                         | Active     | 🟢 Low      | Time tracking for developers                            |
 
 ---

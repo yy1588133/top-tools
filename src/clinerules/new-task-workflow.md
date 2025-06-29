@@ -1,7 +1,7 @@
 ---
 description: Workflow for starting new task when context window reaches 50%
 author: https://github.com/cline
-version: 1.0
+version: 1.1
 tags: ['context-management', 'new-task']
 globs: ['*']
 ---
@@ -40,12 +40,15 @@ Mode, you **MUST**:
 
 ### Context Window Usage Flexibility
 
-While the 50% context window usage threshold is a critical trigger for initiating a task handoff, there may be scenarios
-where continuing in the current session is necessary due to urgency or other constraints. In such cases, you **MUST**:
+While the 50% context window usage threshold is a critical trigger for initiating a task handoff suggestion, there may
+be scenarios where continuing in the current session is necessary due to urgency or other constraints. In such cases,
+you **MUST**:
 
 - Inform the user of the potential risks of context loss due to exceeding the threshold.
-- Allow user discretion to continue in the current session with a clear warning.
-- Recommend saving critical context manually or through a checkpoint system before proceeding to mitigate risks.
+- Allow user discretion to continue in the current session with a clear, reiterated warning about potential context
+  loss.
+- Recommend saving critical context manually or through a checkpoint system before proceeding to mitigate risks,
+  ensuring the user is fully aware of the implications.
 
 ### 1. Initial Task Analysis - REQUIRED
 

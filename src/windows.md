@@ -20,6 +20,9 @@ includes a brief description, key features, performance impact, and relevant tag
 | Responsively   | Latest  | Medium             | Responsive design testing      |
 | RunJS          | Latest  | Low                | JavaScript playground          |
 | Git            | Latest  | Low                | Version control system         |
+| pyenv-win      | Latest  | Low                | Python version management      |
+| nvm-windows    | Latest  | Low                | Node.js version management     |
+| Go             | Latest  | Medium             | Go programming language        |
 
 ## Browsers
 
@@ -284,3 +287,63 @@ A JavaScript playground for prototyping and experimenting with code.
 - CPU Impact: Minimal
 
 `development` `javascript`
+
+---
+
+### [pyenv-win](https://github.com/pyenv-win/pyenv-win)
+
+A Python version management tool for Windows, allowing management of multiple Python versions.
+
+**Features:**
+
+- Managing multiple Python versions
+- Virtual environment creation
+- Easy switching between Python versions
+- Support for project-specific Python environments
+
+**Performance Impact:** Low
+
+- Memory Usage: <50MB
+- CPU Impact: Minimal
+
+`development` `python` `version-management`
+
+---
+
+### [nvm-windows](https://github.com/coreybutler/nvm-windows)
+
+Node Version Manager for Windows, enabling management of multiple Node.js versions.
+
+**Features:**
+
+- Installing and switching between Node.js versions
+- Managing npm versions
+- Supporting multiple projects with different Node.js requirements
+- Command-line interface for version control
+
+**Performance Impact:** Low
+
+- Memory Usage: <50MB
+- CPU Impact: Minimal
+
+`development` `nodejs` `version-management`
+
+---
+
+### [Go](https://go.dev/dl/)
+
+The Go programming language environment for building efficient, reliable software.
+
+**Features:**
+
+- Fast compilation and execution
+- Built-in concurrency support with goroutines
+- Extensive standard library
+- Cross-platform development capabilities
+
+**Performance Impact:** Medium
+
+- Memory Usage: 300MB+ during compilation
+- CPU Impact: Moderate during builds
+
+`development` `programming-language` `golang`

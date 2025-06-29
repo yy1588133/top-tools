@@ -45,6 +45,29 @@ primary, refined knowledge base for long-term use.
   ```
 - This pairing ensures consistent formatting behavior and prevents conflicts between EditorConfig and Prettier settings.
 
+## Context Window Management
+
+- **Importance of Monitoring**: Regularly monitor context window usage to prevent context loss, as mandated by
+  `new-task-workflow.md`. Proactively suggest task handoffs when usage exceeds 50% (e.g., 100,000+ tokens for a 200K
+  context window).
+- **User Discretion Flexibility**: Allow user discretion to continue in the current session despite high usage, with a
+  clear warning about potential context loss risks. This balances strict guidelines with practical user needs.
+
+## Documentation Practices
+
+- **Updating Documentation Files**: When updating files like `vscode.md`, maintain consistency in formatting and
+  structure. Ensure all changes (e.g., new extensions added) are accurately reflected with appropriate status and
+  performance impact notes.
+- **Historical Record Keeping**: Document updates to setup configurations in memory bank files to maintain a historical
+  record, aiding future reference and consistency in project documentation.
+
+## Continuous Improvement and Rule Enhancement
+
+- **User Feedback Integration**: Recognize the importance of user feedback in refining `.clinerules` to better align
+  with user preferences and enhance task efficiency, as per `cline-self-improving.md`.
+- **Rule Adaptability**: Enhance rules like `new-task-workflow.md` to include user discretion clauses for context window
+  management, ensuring flexibility while maintaining protocol adherence.
+
 ## Recent Updates
 
 - Confirmed the necessity and structure of the memory bank reflection protocol.
@@ -52,6 +75,8 @@ primary, refined knowledge base for long-term use.
 - Highlighted the need for consolidation and pruning to maintain clarity and relevance.
 - Suggested exploring automation tools to assist with the consolidation process.
 - Recommended promoting awareness of the memory bank protocol among team members.
+- Added insights on context window management, documentation practices, and rule enhancement based on recent task
+  reflections (2025-06-28).
 
 ## Followed Custom Instructions Reflection
 
@@ -68,6 +93,7 @@ primary, refined knowledge base for long-term use.
 - Emphasize the importance of mode transitions and their distinct roles in the workflow.
 - Reinforce the value of self-reflection and knowledge capture as integral to task completion.
 - Highlight the benefit of maintaining and updating .clinerules for continuous system improvement.
+- Incorporate user discretion in context window management to balance strict guidelines with user needs.
 
 ## Editing Markdown Tables in Source Files
 
@@ -98,3 +124,18 @@ Action Items:
 - Develop and implement templates for raw reflection entries.
 - Investigate automation tools for consolidation and pruning.
 - Conduct training sessions to raise awareness of memory bank practices.
+
+---
+
+Date: 2025-06-28 Update: Context Window and Documentation Insights
+
+Insights:
+
+- Reinforced the importance of context window monitoring and user discretion in task continuation.
+- Enhanced documentation practices for maintaining historical records of setup changes.
+- Emphasized user feedback integration for continuous rule improvement and adaptability.
+
+Action Items:
+
+- Update `new-task-workflow.md` to reflect user discretion flexibility in context window management.
+- Establish a periodic review process for documentation files to ensure they remain current with user setups.
