@@ -1,6 +1,6 @@
 # VSCode Extensions
 
-_Last updated: 2025-06-28_ _Current setup: Windows 11 debloated, Git, Node.js, Python, VSCodium, telemetry off_
+> _Current setup: Windows 11 debloated, WSL, Docker, Git, Node.js, Python, Go, VSCodium, telemetry off_
 
 ---
 
@@ -57,7 +57,6 @@ _Last updated: 2025-06-28_ _Current setup: Windows 11 debloated, Git, Node.js, P
 | autoDocstring                    | Active     | 🟢 Low      | Generating docstrings for Python                        |
 | AREPL                            | Active     | 🟡 Medium   | Real-time Python code evaluation                        |
 | Markdown Preview GitHub          | Active     | 🟢 Low      | GitHub-flavored Markdown preview                        |
-| GitLens (Lower Version)          | Active     | 🟡 Medium   | Version control visualization (lower version)           |
 | WakaTime                         | Active     | 🟢 Low      | Time tracking for developers                            |
 
 ---
@@ -240,7 +239,7 @@ settings will not be applied.
 
 To include ESLint in your project, follow these installation and configuration instructions:
 
-1. Add the following dev-dependencies to your `package.json`:
+1\. Add the following dev-dependencies to your `package.json`:
 
 ```json
 "eslint": "^8.36.0",
@@ -255,9 +254,9 @@ To include ESLint in your project, follow these installation and configuration i
 "prettier": "^2.8.7"
 ```
 
-2. This setup works only for the ESLint legacy configuration.
+2\. This setup works only for the ESLint legacy configuration.
 
-3. Create a `.eslintrc.js` file in the root of your project with the following content:
+3\. Create a `.eslintrc.js` file in the root of your project with the following content:
 
 ```js
 module.exports = {
@@ -292,9 +291,9 @@ module.exports = {
 }
 ```
 
-4. The `rules` section is fully customizable to fit your project's needs.
+4\. The `rules` section is fully customizable to fit your project's needs.
 
-5. As a good practice, include the following scripts in your `package.json`:
+5\. As a good practice, include the following scripts in your `package.json`:
 
 ```json
 "lint": "eslint ./**/*.{js,jsx,ts,tsx}",

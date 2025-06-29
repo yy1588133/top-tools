@@ -1,7 +1,5 @@
 # Browser Extensions
 
-_Last updated: 2025-06-26_
-
 ---
 
 ## Table of Contents

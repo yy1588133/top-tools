@@ -96,8 +96,6 @@ The project uses a Memory Bank system for comprehensive documentation:
 
 ## 🔄 Updates
 
-_Last updated: 2025-06-26_
-
 This repository is regularly updated to reflect:
 
 - Latest tool recommendations

@@ -1,7 +1,5 @@
 # Git Configuration Guide
 
-_Last updated: 2025-06-26_
-
 ---
 
 ## Reference Configuration Files
@@ -104,10 +102,13 @@ SSH keys are used to securely connect to remote repositories. Here's how to crea
 1. **Generate an SSH Key**:
 
    - **Recommended**: Use ED25519 for better security and performance.
+
      ```bash
      ssh-keygen -t ed25519 -C "your_email@example.com"
      ```
+
    - **Alternative**: Use RSA if compatibility with older systems is needed.
+
      ```bash
      ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
      ```
@@ -115,19 +116,25 @@ SSH keys are used to securely connect to remote repositories. Here's how to crea
 2. **Add the SSH Key to the SSH Agent**:
 
    - Start the SSH agent in the background:
+
      ```bash
      eval "$(ssh-agent -s)"
      ```
+
    - Add your SSH private key to the SSH agent:
+
      ```bash
      ssh-add ~/.ssh/id_ed25519
      ```
 
 3. **Add the SSH Key to Your GitHub Account**:
+
    - Copy the SSH key to your clipboard:
+
      ```bash
      clip < ~/.ssh/id_ed25519.pub
      ```
+
    - Go to GitHub, navigate to **Settings > SSH and GPG keys**, and click **New SSH key**.
    - Paste your key and save.
 

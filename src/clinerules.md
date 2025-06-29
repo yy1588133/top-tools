@@ -1,7 +1,5 @@
 # ClineRules Instructions
 
-_Last updated: 2025-06-26_
-
 ---
 
 ## Categories
@@ -122,6 +120,7 @@ _Last updated: 2025-06-26_
   ```
 
 - **update memory bank**: Trigger full documentation review
+
   ```bash
   # Reviews all files
   # Updates documentation
@@ -166,6 +165,7 @@ _Last updated: 2025-06-26_
    ```
 
 3. Updating Documentation:
+
    ```bash
    User: update memory bank
    Cline: *Reviews all files*

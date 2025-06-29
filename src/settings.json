@@ -58,7 +58,7 @@
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "black",
   "python.formatting.blackArgs": ["--line-length", "120"],
-  "python.sortImports.path": "isort",
+  // "python.sortImports.path": "isort", // Commented out due to Unknown Configuration Setting error
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.diagnosticMode": "workspace",
   "python.analysis.autoImportCompletions": true,
