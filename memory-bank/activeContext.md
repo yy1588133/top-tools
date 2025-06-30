@@ -22,6 +22,7 @@ documentation to ensure accuracy and usefulness for developers.
   updated `src/windows.md` to replace PowerToys with Lightshot as a lightweight screenshot tool.
 - **6/29/2025**: Completed a comprehensive update of all core Memory Bank files to reflect the latest project status and
   ensure documentation accuracy.
+- **6/30/2025**: Updated `src/windows.md` to include Notepad++ as a lightweight text editor under Development Tools.
 
 ## Next Steps
 

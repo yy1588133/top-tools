@@ -23,6 +23,7 @@ includes a brief description, key features, performance impact, and relevant tag
 | pyenv-win      | Latest  | Low                | Python version management      |
 | nvm-windows    | Latest  | Low                | Node.js version management     |
 | Go             | Latest  | Medium             | Go programming language        |
+| Notepad++      | Latest  | Low                | Lightweight text editor        |
 
 ## Browsers
 
@@ -347,3 +348,23 @@ The Go programming language environment for building efficient, reliable softwar
 - CPU Impact: Moderate during builds
 
 `development` `programming-language` `golang`
+
+---
+
+### [Notepad++](https://notepad-plus-plus.org/downloads/)
+
+A free, open-source text and source code editor that supports multiple languages.
+
+**Features:**
+
+- Syntax highlighting and folding
+- Multi-document and multi-view editing
+- Extensive plugin support for added functionality
+- Macro recording and playback for automation
+
+**Performance Impact:** Low
+
+- Memory Usage: <100MB
+- CPU Impact: Minimal
+
+`development` `text-editor` `open-source`
