@@ -148,3 +148,7 @@ Below is the latest XKCD comic, fetched daily by our script. Get ready for a gee
 code with laughter!
 
 ![Latest XKCD Comic](xkcd_scraper/comics/latest_xkcd.jpg)
+
+Internet-connected appliances like dehumidifiers often introduce unnecessary security risks over practical benefits.
+
+> [Checkout Extracted Wisdom from this Comic](./xkcd_scraper/comics/xkcd_wisdom_output.md)

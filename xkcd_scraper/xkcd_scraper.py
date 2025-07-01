@@ -28,7 +28,7 @@ def ensure_comics_dir():
 
 
 def fetch_latest_xkcd_comic():
-    """Fetch and save the latest XKCD comic."""
+    """Fetch and save the latest XKCD comic and its explanation from explainxkcd.com."""
     try:
         # URL of the XKCD homepage
         url = "https://xkcd.com/"
@@ -61,6 +61,30 @@ def fetch_latest_xkcd_comic():
         if not img_url.startswith("http"):
             img_url = "https:" + img_url
 
+        # Extract comic number from the page title or meta information
+        comic_number = ""
+        title_tag = soup.find("div", id="ctitle")
+        if title_tag:
+            title_text = title_tag.text
+            # Check if title contains the comic number
+            import re
+
+            match = re.search(r"#(\d+)", title_text)
+            if match:
+                comic_number = match.group(1)
+        if not comic_number:
+            # Fallback to URL path or other indicators
+            prev_link = soup.find("a", rel="prev")
+            if prev_link and "href" in prev_link.attrs:
+                prev_href = prev_link["href"]
+                match = re.search(r"/(\d+)/", prev_href)
+                if match:
+                    prev_number = int(match.group(1))
+                    comic_number = str(prev_number + 1)
+        if not comic_number.isdigit():
+            logger.error("Could not extract comic number from page.")
+            return
+
         # Use a static filename for the latest comic
         filename = "latest_xkcd.jpg"
         filepath = os.path.join(COMICS_DIR, filename)
@@ -76,8 +100,40 @@ def fetch_latest_xkcd_comic():
 
         logger.info(f"Successfully saved comic to {filepath}")
 
+        # Fetch explanation from explainxkcd.com
+        explanation_url = f"https://www.explainxkcd.com/wiki/index.php/{comic_number}"
+        logger.info(f"Fetching explanation from {explanation_url}")
+        explanation_response = requests.get(
+            explanation_url, headers=headers, timeout=10
+        )
+        explanation_response.raise_for_status()
+
+        explanation_soup = BeautifulSoup(explanation_response.text, "html.parser")
+        explanation_section = explanation_soup.find("span", id="Explanation")
+        if not explanation_section:
+            logger.error("Could not find Explanation section on the page.")
+            return
+
+        # Extract text from the Explanation section
+        explanation_text = ""
+        current_element = explanation_section.find_parent()
+        while current_element and current_element.name != "span":
+            if current_element.name in ["p", "div"]:
+                explanation_text += current_element.get_text(strip=True) + "\n\n"
+            current_element = current_element.find_next_sibling()
+            if current_element and current_element.find("span", id="Transcript"):
+                break
+
+        # Save the explanation text
+        explanation_filename = "latest_xkcd_explanation.txt"
+        explanation_filepath = os.path.join(COMICS_DIR, explanation_filename)
+        with open(explanation_filepath, "w", encoding="utf-8") as f:
+            f.write(explanation_text)
+
+        logger.info(f"Successfully saved explanation to {explanation_filepath}")
+
     except requests.exceptions.RequestException as e:
-        logger.error(f"Error fetching comic: {e}")
+        logger.error(f"Error fetching comic or explanation: {e}")
     except Exception as e:
         logger.error(f"Unexpected error: {e}")
 
@@ -89,7 +145,9 @@ def main():
 
     # Run the scraper immediately and exit
     fetch_latest_xkcd_comic()
-    logger.info("Finished fetching the latest XKCD comic. Exiting script.")
+    logger.info(
+        "Finished fetching the latest XKCD comic and explanation. Exiting script."
+    )
 
 
 if __name__ == "__main__":
