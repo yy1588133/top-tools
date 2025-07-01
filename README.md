@@ -139,3 +139,12 @@ We welcome contributions to improve this toolset:
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🖼️ Latest XKCD Comic
+
+Below is the latest XKCD comic, fetched daily by our script. Get ready for a geeky giggle—XKCD might just crash your
+code with laughter!
+
+![Latest XKCD Comic](xkcd_scraper/comics/latest_xkcd.jpg)

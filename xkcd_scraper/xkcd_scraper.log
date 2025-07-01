@@ -1,0 +1,21 @@
+2025-07-01 14:30:00,305 - INFO - Starting XKCD Scraper...
+2025-07-01 14:30:00,305 - INFO - Created directory comics for saving comics.
+2025-07-01 14:30:00,305 - INFO - Scheduled comic scraping every day at 08:00.
+2025-07-01 14:30:00,952 - INFO - Successfully fetched XKCD homepage.
+2025-07-01 14:30:00,957 - INFO - Downloading comic from https://imgs.xkcd.com/comics/dehumidifier.png
+2025-07-01 14:30:01,192 - INFO - Successfully saved comic to comics\xkcd_20250701_143000_It's_important_for_devices_to_have_internet_connec.jpg
+2025-07-01 14:31:44,799 - INFO - Starting XKCD Scraper...
+2025-07-01 14:31:44,815 - INFO - Scheduled comic scraping every day at 08:00.
+2025-07-01 14:31:44,853 - INFO - Successfully fetched XKCD homepage.
+2025-07-01 14:31:44,857 - INFO - Downloading comic from https://imgs.xkcd.com/comics/dehumidifier.png
+2025-07-01 14:31:44,894 - INFO - Successfully saved comic to comics\xkcd_20250701_143144_It's_important_for_devices_to_have_internet_connec.jpg
+2025-07-01 14:34:16,642 - INFO - Starting XKCD Scraper...
+2025-07-01 14:34:16,685 - INFO - Successfully fetched XKCD homepage.
+2025-07-01 14:34:16,688 - INFO - Downloading comic from https://imgs.xkcd.com/comics/dehumidifier.png
+2025-07-01 14:34:16,803 - INFO - Successfully saved comic to comics\latest_xkcd.jpg
+2025-07-01 14:34:16,803 - INFO - Finished fetching the latest XKCD comic. Exiting script.
+2025-07-01 14:35:27,635 - INFO - Starting XKCD Scraper...
+2025-07-01 14:35:28,015 - INFO - Successfully fetched XKCD homepage.
+2025-07-01 14:35:28,019 - INFO - Downloading comic from https://imgs.xkcd.com/comics/dehumidifier.png
+2025-07-01 14:35:28,271 - INFO - Successfully saved comic to comics\latest_xkcd.jpg
+2025-07-01 14:35:28,272 - INFO - Finished fetching the latest XKCD comic. Exiting script.
