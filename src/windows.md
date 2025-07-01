@@ -24,6 +24,7 @@ includes a brief description, key features, performance impact, and relevant tag
 | nvm-windows    | Latest  | Low                | Node.js version management     |
 | Go             | Latest  | Medium             | Go programming language        |
 | Notepad++      | Latest  | Low                | Lightweight text editor        |
+| VLC            | Latest  | Low                | Versatile media player         |
 
 ## Browsers
 
@@ -368,3 +369,26 @@ A free, open-source text and source code editor that supports multiple languages
 - CPU Impact: Minimal
 
 `development` `text-editor` `open-source`
+
+---
+
+## Media Tools
+
+### [VLC](https://www.videolan.org/vlc/)
+
+A free and open-source media player that supports a wide range of audio and video formats without the need for
+additional codecs.
+
+**Features:**
+
+- Plays most multimedia files and various streaming protocols
+- Cross-platform support with customizable skins and extensions
+- Advanced control over playback, including subtitles and audio tracks
+- Media conversion and streaming capabilities
+
+**Performance Impact:** Low
+
+- Memory Usage: <100MB
+- CPU Impact: Minimal during standard playback
+
+`media` `open-source`

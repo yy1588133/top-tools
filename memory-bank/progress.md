@@ -10,6 +10,8 @@
   recommended extensions.
 - **VSCode Extension Documentation**: Similarly updated in early June 2025 to reflect current tools and configurations
   for development environments.
+- **Windows Program Documentation**: Updated on 7/1/2025 to include VLC as a versatile media player under a new "Media
+  Tools" category in `src/windows.md`, with detailed features and performance impact information.
 
 ## What's Left to Build
 
@@ -36,6 +38,7 @@
   - Updates to browser and VSCode extension documentation completed in early June 2025.
   - Renamed `src/installed-windows-programs.md` to `src/windows.md` and updated references in `README.md` on 6/27/2025.
   - Comprehensive update of all core Memory Bank files to reflect the latest project status on 6/29/2025.
+  - Updated `src/windows.md` to include VLC as a media player under a new "Media Tools" category on 7/1/2025.
 - **Not Started**:
   - Automation for tool status updates.
   - Community feedback integration.

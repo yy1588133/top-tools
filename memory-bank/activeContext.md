@@ -23,6 +23,8 @@ documentation to ensure accuracy and usefulness for developers.
 - **6/29/2025**: Completed a comprehensive update of all core Memory Bank files to reflect the latest project status and
   ensure documentation accuracy.
 - **6/30/2025**: Updated `src/windows.md` to include Notepad++ as a lightweight text editor under Development Tools.
+- **7/1/2025**: Updated `src/windows.md` to include VLC as a versatile media player under a new "Media Tools" category,
+  with a detailed section on its features and performance impact.
 
 ## Next Steps
 
