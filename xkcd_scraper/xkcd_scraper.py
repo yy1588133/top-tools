@@ -14,8 +14,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Directory to save comics
-COMICS_DIR = "comics"
+# Directory to save comics, relative to the script's location
+import os
+
+COMICS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "comics")
 
 
 def ensure_comics_dir():
