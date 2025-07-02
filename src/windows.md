@@ -5,26 +5,27 @@ includes a brief description, key features, performance impact, and relevant tag
 
 ## Program Compatibility
 
-| Program Name   | Version | Performance Impact | Notes                          |
-| -------------- | ------- | ------------------ | ------------------------------ |
-| VSCodium       | Latest  | Medium             | Open-source VSCode alternative |
-| Brave          | Latest  | Low                | Privacy-focused browser        |
-| Chrome         | Latest  | Medium             | General-purpose browser        |
-| Firefox        | Latest  | Medium             | Open-source browser            |
-| Drive          | Latest  | Low                | Cloud storage solution         |
-| WSL            | Latest  | Medium             | Linux environment on Windows   |
-| Docker         | Latest  | High               | Containerization platform      |
-| Lightshot      | Latest  | Low                | Lightweight screenshot tool    |
-| Obsidian       | Latest  | Low                | Knowledge management tool      |
-| GitHub Desktop | Latest  | Low                | Git GUI client                 |
-| Responsively   | Latest  | Medium             | Responsive design testing      |
-| RunJS          | Latest  | Low                | JavaScript playground          |
-| Git            | Latest  | Low                | Version control system         |
-| pyenv-win      | Latest  | Low                | Python version management      |
-| nvm-windows    | Latest  | Low                | Node.js version management     |
-| Go             | Latest  | Medium             | Go programming language        |
-| Notepad++      | Latest  | Low                | Lightweight text editor        |
-| VLC            | Latest  | Low                | Versatile media player         |
+| Program Name   | Version | Performance Impact | Notes                               |
+| -------------- | ------- | ------------------ | ----------------------------------- |
+| VSCodium       | Latest  | Medium             | Open-source VSCode alternative      |
+| Brave          | Latest  | Low                | Privacy-focused browser             |
+| Chrome         | Latest  | Medium             | General-purpose browser             |
+| Firefox        | Latest  | Medium             | Open-source browser                 |
+| Drive          | Latest  | Low                | Cloud storage solution              |
+| WSL            | Latest  | Medium             | Linux environment on Windows        |
+| Docker         | Latest  | High               | Containerization platform           |
+| Lightshot      | Latest  | Low                | Lightweight screenshot tool         |
+| Obsidian       | Latest  | Low                | Knowledge management tool           |
+| GitHub Desktop | Latest  | Low                | Git GUI client                      |
+| Responsively   | Latest  | Medium             | Responsive design testing           |
+| RunJS          | Latest  | Low                | JavaScript playground               |
+| Git            | Latest  | Low                | Version control system              |
+| pyenv-win      | Latest  | Low                | Python version management           |
+| nvm-windows    | Latest  | Low                | Node.js version management          |
+| Go             | Latest  | Medium             | Go programming language             |
+| Notepad++      | Latest  | Low                | Lightweight text editor             |
+| VLC            | Latest  | Low                | Versatile media player              |
+| 7-Zip          | Latest  | Low                | File archiver with high compression |
 
 ## Browsers
 
@@ -392,3 +393,25 @@ additional codecs.
 - CPU Impact: Minimal during standard playback
 
 `media` `open-source`
+
+---
+
+## Utility Tools
+
+### [7-Zip](https://www.7-zip.org/)
+
+A free, open-source file archiver with a high compression ratio, supporting a variety of archive formats.
+
+**Features:**
+
+- Supports multiple archive formats (7z, ZIP, RAR, etc.)
+- Strong AES-256 encryption for secure archiving
+- Self-extracting capability for 7z format
+- Integration with Windows Shell for easy access
+
+**Performance Impact:** Low
+
+- Memory Usage: <100MB
+- CPU Impact: Minimal during standard operations
+
+`utility` `compression` `open-source`
