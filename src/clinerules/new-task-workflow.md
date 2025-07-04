@@ -16,10 +16,11 @@ efficient task completion.
 
 ## ⚠️ CONTEXT WINDOW MONITORING - MANDATORY ACTION REQUIRED ⚠️
 
-You **MUST** monitor the context window usage displayed in the environment details. When usage exceeds 50% of the
-available context window, you **MUST** initiate a task handoff using the `new_task` tool.
+You **MUST** monitor the context window usage displayed in the environment details. To prevent loss of conversation
+continuity, you **MUST** initiate a task handoff using the `new_task` tool based on configurable thresholds and
+model-specific context window capacities.
 
-Example of context window usage over 50% with a 200K context window:
+Example of context window usage with a 200K context window:
 
 ```text
 # Context Window Usage
@@ -27,11 +28,22 @@ Example of context window usage over 50% with a 200K context window:
 105,000 / 200,000 tokens (53%) Model: anthropic/claude-3.7-sonnet (200K context window)
 ```
 
-**IMPORTANT**: When you see context window usage at or above 50%, you MUST:
+**IMPORTANT**: You MUST adhere to the following protocol for context window management:
 
-1. Complete your current logical step
-2. Use the `ask_followup_question` tool to offer creating a new task
-3. If approved, use the `new_task` tool with comprehensive handoff instructions
+1. **Early Alert**: When usage reaches 40% of the context window (or a user-configured early alert threshold), notify
+   the user with a gentle reminder of the current usage and the option to save context manually or prepare for a
+   potential handoff.
+2. **Strong Recommendation**: When usage exceeds 50% of the context window (or a user-configured primary threshold),
+   strongly recommend initiating a task handoff. Complete your current logical step, then use the
+   `ask_followup_question` tool to offer creating a new task.
+3. **Final Warning**: If the user chooses to continue and usage reaches 75% (or a user-configured critical threshold),
+   issue a final warning about the high risk of context loss and reiterate the option to save context manually or
+   proceed with a handoff.
+4. If approved at any stage, use the `new_task` tool with comprehensive handoff instructions to ensure continuity.
+
+**MODEL-SPECIFIC ADJUSTMENTS**: Adjust thresholds dynamically based on the AI model's context window capacity (e.g.,
+131K for some models, 200K for others like Claude). For larger context windows, thresholds may be set higher if
+configured by the user, but always maintain a safety buffer to prevent loss of context.
 
 ## Task Breakdown in Plan Mode - REQUIRED PROCESS
 
@@ -40,15 +52,17 @@ Mode, you **MUST**:
 
 ### Context Window Usage Flexibility
 
-While the 50% context window usage threshold is a critical trigger for initiating a task handoff suggestion, there may
-be scenarios where continuing in the current session is necessary due to urgency or other constraints. In such cases,
-you **MUST**:
+While the configurable context window usage thresholds (defaulting to 40% early alert, 50% strong recommendation, and
+75% final warning) are critical triggers for initiating a task handoff suggestion, there may be scenarios where
+continuing in the current session is necessary due to urgency or other constraints. In such cases, you **MUST**:
 
-- Inform the user of the potential risks of context loss due to exceeding the threshold.
-- Allow user discretion to continue in the current session with a clear, reiterated warning about potential context
-  loss.
+- Inform the user of the potential risks of context loss due to exceeding the thresholds.
+- Allow user discretion to continue in the current session with a clear, reiterated warning about potential context loss
+  at each stage.
 - Recommend saving critical context manually or through a checkpoint system before proceeding to mitigate risks,
   ensuring the user is fully aware of the implications.
+- Respect user-configured thresholds if set, adjusting notifications and recommendations accordingly to balance safety
+  with user preferences.
 
 ### 1. Initial Task Analysis - REQUIRED
 
@@ -286,7 +300,8 @@ detail in 'Current State' or 'Next Steps')._
 
 You **MUST** initiate task handoffs in these scenarios:
 
-1. **CRITICAL**: When context window usage exceeds 50% (e.g., 100,000+ tokens for a 200K context window)
+1. **CRITICAL**: When context window usage exceeds the configured primary threshold, defaulting to 50% (e.g., 100,000+
+   tokens for a 200K context window), or reaches critical levels like 75% if the user opts to continue
 2. **Long-running projects** that exceed a single session
 3. **Complex implementations** with multiple distinct phases
 4. **When context window limitations** are approaching
@@ -295,9 +310,11 @@ You **MUST** initiate task handoffs in these scenarios:
 
 ## **⚠️ FINAL REMINDER - CRITICAL INSTRUCTION ⚠️**
 
-You **MUST** monitor the context window usage in the environment details section. When it exceeds 50% (e.g., "105,000 /
-200,000 tokens (53%)"), you **MUST** proactively initiate the task handoff process using the `ask_followup_question`
-tool followed by the `new_task` tool. You MUST use the `new_task` tool.
+You **MUST** monitor the context window usage in the environment details section. When it approaches or exceeds the
+configured thresholds (defaulting to 40% for early alert, 50% for strong recommendation, and 75% for final warning), you
+**MUST** proactively notify the user at each stage and initiate the task handoff process using the
+`ask_followup_question` tool followed by the `new_task` tool if approved. You MUST use the `new_task` tool when
+appropriate to prevent context loss, respecting user preferences and model-specific capacities.
 
 By strictly following these guidelines, you'll ensure smooth transitions between tasks, maintain project momentum, and
 provide the best possible experience for users working on complex, multi-session projects.
