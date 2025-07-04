@@ -26,6 +26,7 @@ includes a brief description, key features, performance impact, and relevant tag
 | Notepad++      | Latest  | Low                | Lightweight text editor             |
 | VLC            | Latest  | Low                | Versatile media player              |
 | 7-Zip          | Latest  | Low                | File archiver with high compression |
+| IrfanView      | Latest  | Low                | 32-bit graphic viewer               |
 
 ## Browsers
 
@@ -415,3 +416,42 @@ A free, open-source file archiver with a high compression ratio, supporting a va
 - CPU Impact: Minimal during standard operations
 
 `utility` `compression` `open-source`
+
+---
+
+### [IrfanView 32-bit](https://www.irfanview.com/)
+
+A fast, compact, and innovative graphic viewer for Windows, supporting a wide range of file formats.
+
+**Features:**
+
+- Lightweight and fast image viewing
+- Basic image editing capabilities (resize, crop, rotate)
+- Batch conversion and renaming of images
+- Support for numerous file formats with plugins
+- Slideshow and thumbnail generation
+
+**Performance Impact:** Low
+
+- Memory Usage: <50MB
+- CPU Impact: Minimal
+
+`media` `image-viewer` `utility`
+
+#### IrfanView Plugins
+
+A set of additional plugins to extend IrfanView's functionality.
+
+**Features:**
+
+- Extended file format support (e.g., RAW, CAD formats)
+- Additional image processing filters and effects
+- Enhanced multimedia playback capabilities
+- Support for OCR and scanning
+
+**Performance Impact:** Low
+
+- Memory Usage: <20MB additional
+- CPU Impact: Minimal
+
+`media` `plugin` `image-processing`

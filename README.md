@@ -144,11 +144,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🖼️ Latest XKCD Comic
 
-Below is the latest XKCD comic, fetched daily by our script. Get ready for a geeky giggle—XKCD might just crash your
-code with laughter!
-
 ![Latest XKCD Comic](xkcd_scraper/comics/latest_xkcd.jpg)
 
-Internet-connected appliances like dehumidifiers often introduce unnecessary security risks over practical benefits.
-
-> [Checkout Extracted Wisdom from this Comic](./xkcd_scraper/comics/xkcd_wisdom_output.md)
+> Online chess platforms democratize rankings, blending competition with complex social dynamics for players.
+>
+> [_Checkout Extracted Wisdom from this Comic_](./xkcd_scraper/comics/xkcd_wisdom_output.md)

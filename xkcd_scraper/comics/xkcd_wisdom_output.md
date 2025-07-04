@@ -1,175 +1,164 @@
-# Wisdom Extracted from XKCD Comic 3109 Explanation
+# Wisdom Extracted from XKCD Comic 3110 Explanation
 
 ## SUMMARY
 
-Randall Munroe mocks internet-connected appliances like dehumidifiers, questioning their necessity and security risks in
-XKCD 3109.
+Randall Munroe explores chess rankings and online community dynamics in XKCD 3110 with Cueball's perspective.
 
 ## IDEAS
 
-- Internet-connected appliances often seem like over-engineering for minimal real benefit to users.
-- Dehumidifiers don't obviously need internet updates without significant hardware changes being involved.
-- Cueball's sarcasm highlights the absurdity of needing updates for simple devices like dehumidifiers.
-- Many smart devices are marketed as advanced despite offering little practical added value.
-- Connectivity in appliances can sometimes be more about marketing than functional improvement.
-- Remote access to dehumidifier data could be useful for monitoring water levels.
-- Knowing humidity logs over time via internet could indicate dehumidifier performance issues.
-- Internet connectivity might help alert users when dehumidifier tanks need emptying soon.
-- WiFi connection allows local data sharing without needing full internet server access.
-- However, many devices require internet apps, risking functionality if servers shut down.
-- Manufacturer servers for smart devices can become obsolete, rendering devices partially useless.
-- Security patches for internet-connected devices often require the internet, creating ironic vulnerabilities.
-- Removing internet connectivity could prevent the need for remote exploit patches entirely.
-- The updater itself might be the primary source of remote security vulnerabilities.
-- Acoustic or light-based attacks on devices are possible, though rare and complex.
-- Patching could theoretically mitigate unconventional attacks like acoustic hacking from outside homes.
-- Previous XKCD comics have also critiqued unnecessary smart features in everyday appliances.
-- Comic 3044 humorously reviewed a humidifier, paralleling current dehumidifier connectivity critique.
-- Comic 463 highlighted security issues in voting machines, akin to appliance vulnerabilities.
-- Comic 1966 explored smart home security risks, relevant to current dehumidifier concerns.
-- Comic 1912 on thermostats warned of risks in computerizing simple household devices.
-- Over-engineering solutions often stem from a 'because we can' mentality in tech.
-- Internet connectivity in appliances can create more problems than it actually solves.
-- The trend of smart appliances may prioritize perceived innovation over practical utility.
-- Security concerns with smart devices often outweigh the minor conveniences they provide.
+- Chess rankings now include beginners due to online platforms like chess.com and lichess.
+- FIDE rating floor dropped from 2200 to 1400 by 2025, expanding ranked players.
+- Chess.com ranks millions, with a floor at 100, allowing even novices to participate.
+- Lichess sets its rating floor at 400, also accommodating players of all levels.
+- Cueball's ranking of 7,145,000 on chess.com places him near the top 10% roughly.
+- An Elo rating of about 900 corresponds to Cueball's specific chess.com ranking position.
+- Being lowest ranked on chess.com might imply worse skill than in other activities.
+- Online platforms enable ranking vast numbers of players, unlike traditional sports limitations.
+- Cueball plays chess for social reasons, seeking friendship through the game interactions.
+- Toxicity is common in online gaming communities, as White Hat points out.
+- Cueball interprets online abuse as a complex form of friendship in gaming.
+- Online leaderboards can be manipulated into meta-rankings, flipping low ranks to high.
+- Internet platforms have revolutionized how hobbies like chess track and rank participants.
+- Ranking in the millions shows the sheer scale of online chess player bases.
+- Social dynamics in online games often include negative interactions alongside community building.
+- Personal motivations for gaming can include social connection despite toxic environments.
+- Combined leaderboards offer creative ways to reinterpret poor rankings as positive achievements.
+- Historical ranking limitations stemmed from impracticality before widespread computerization occurred.
+- Chess.com has about 218 million users, with 58 million having Rapid ratings.
+- Ranking systems influence player perception of skill and community status significantly.
+- Online gaming communities often blend competition with complex social interaction layers.
+- Individual ranking placements can carry different meanings across various activity leaderboards.
+- Cueball's perspective highlights personal value in gaming beyond just competitive ranking.
+- Technology enables detailed tracking of player stats, changing how skills are measured.
+- Social bonds in gaming can form even amidst challenging or hostile interactions.
 
 ## INSIGHTS
 
-- Over-engineering in smart appliances often prioritizes marketing over genuine user benefit.
-- Internet connectivity in simple devices can introduce unnecessary security vulnerabilities.
-- The irony of needing internet to patch internet-caused vulnerabilities is striking.
-- Smart device obsolescence due to server shutdowns poses significant user risks.
-- Unconventional attack vectors like acoustic hacking highlight broader smart device insecurities.
-- Historical XKCD critiques show a consistent skepticism toward unnecessary smart features.
-- Practical remote monitoring is possible without full internet dependency in appliances.
-- Consumer desire for 'advanced' tech often drives impractical smart device features.
-- Security patches for smart appliances can become a self-perpetuating vulnerability cycle.
-- Simplicity in device design often trumps complex, internet-dependent supposed innovations.
+- Online platforms democratize rankings, including beginners in systems like chess.com impressively.
+- Chess ranking floors have lowered over time, reflecting broader player inclusion.
+- Technology transforms hobbies by enabling massive, detailed participant tracking and ranking.
+- Social motivations in gaming often outweigh competitive rankings for many players.
+- Toxicity in online communities can coexist with unique forms of social bonding.
+- Meta-rankings creatively reinterpret poor standings into positive, unique leaderboard achievements.
+- Internet-era ranking systems reveal vast scales of participation in niche activities.
+- Personal value in gaming often lies beyond mere numerical ranking or status.
+- Historical ranking constraints highlight technology's role in modern skill assessment methods.
+- Online gaming blends competition with complex social dynamics, shaping player experiences.
 
 ## QUOTES
 
-- "Randall mocks the recent trend of various appliances, such as stoves and juicers, being connected to the internet
-  even though they don't require an internet connection to function." - Randall Munroe
-- "A dehumidifier removes moisture from the air." - Explanation Text
-- "There are no obvious ways to improve dehumidifier operation without changes to its hardware, so it's unclear what
-  benefit being able to receive updates via the internet would confer." - Explanation Text
-- "Cueball's sarcastic reply underlines the unlikeliness of a situation occurring where an update would be necessary." -
+- "This explanation is incomplete: This page was created recently and is the 3110TH BEST PAGE." - Explanation Text
+- "Don't remove this notice too soon. If you can fix this issue, edit the page!" - Explanation Text
+- "Indeed, most sports only rank the best, most professional participants." - Explanation Text
+- "Especially before computerization, nobody bothered to rank more than a few hundred or thousand competitors, largely
+  because it would have been impractical." - Explanation Text
+- "Even in chess, up to the mid-1990s, the FIDE rating floor used to be 2200, which only included some of the best
+  players." - Explanation Text
+- "As of 2025, the FIDE floor is 1400, which allows intermediates to be rated and ranked." - Explanation Text
+- "However, platforms such as chess.com and lichess, which have appeared since the creation of the Internet, do not
+  abide by the FIDE floor limitation either." - Explanation Text
+- "Chess.com placing the floor at 100 and lichess at 400, allowing even complete beginners to be rated and ranked." -
   Explanation Text
-- "The implication is that many of these internet-connected devices are examples of over-engineering a solution to do
-  things 'because we can' or because it makes it sound advanced and therefore more desirable to the customer, rather
-  than because it offers any real added value." - Explanation Text
-- "Dehumidifiers can provide information which would be useful to access remotely." - Explanation Text
-- "For instance, it might be helpful to know the level of water in the storage tank (which must be emptied when full),
-  the percent of time the humidifier is paused for deicing, a log of the humidity level over time, and whether the
-  humidity exceeds a certain limit (which could indicate dehumidifier malfunction, or that the dehumidifier is
-  inadequate to the conditions)." - Explanation Text
-- "A local wireless network connected via WiFi is a reasonable way to send this information to a user or to other local
-  devices." - Explanation Text
-- "However, many devices like this now offer, or even require, connections to a special app or to the internet." -
+- "Ranking placements on chess.com go into the millions." - Explanation Text
+- "Specifically, chess.com currently has about 218 million users, about 58 million of which have a Rapid rating." -
   Explanation Text
-- "They typically connect to servers run by the device's manufacturer." - Explanation Text
-- "When that server goes away, the devices may stop working." - Explanation Text
-- "The title text says that authorized internet access is required to patch remote exploits (i.e., harmful unauthorized
-  access from the internet)." - Explanation Text
-- "If this is the only use case that requires internet access, it would be much simpler to remove the attack vector for
-  remote exploits by not having it connected to the internet in the first place." - Explanation Text
-- "The most likely source of remote access would probably be the remote updater itself." - Explanation Text
-- "However, there is proof-of-concept of devices being hacked through acoustic-based or light-based attacks (possibly
-  through hacked speakers or even from outside the house), and a patch could possibly circumvent those attacks." -
-  Explanation Text
-- "A related device was previously referred to in 3044: Humidifier Review, and the issue of possibly considering online
-  protection of devices that (arguably) should not be so easily exploitable was looked at in 463: Voting Machines and
-  1966: Smart Home Security." - Explanation Text
-- "Comic 1912: Thermostat also deals with risks of adding computers to appliances." - Explanation Text
-- "This explanation is incomplete: This page was created WITHOUT INTERNET ACCESS. Don't remove this notice too soon. If
-  you can fix this issue, edit the page!" - Explanation Text
-- "In this comic, Randall mocks the recent trend of various appliances, such as stoves and juicers, being connected to
-  the internet even though they don't require an internet connection to function." - Randall Munroe
-- "Cueball's sarcastic reply underlines the unlikeliness of a situation occurring where an update would be necessary." -
-  Cueball
+- "Being 7'145'000 would put Cueball just shy of best 10% of players with an Elo rating of about 900." - Explanation
+  Text
+- "If being in the same ranking placement in different leaderboards has the same meaning to anyone, it is possible that
+  being the lowest rated player on chess.com makes one worse than anyone in any other activity where rankings are
+  applied." - Explanation Text
+- "Cueball then explains that he enjoys playing chess for communicative reasons, to gain friends." - Explanation Text
+- "White Hat points out the toxicity that appears to be rampant among the people he is playing with, which may be found
+  in many hobbyist online communities, especially ones that are related to gaming." - Explanation Text
+- "But Cueball, while aware of the issue, seems to take the abuse he is getting as an expression of a complicated kind
+  of friendship." - Explanation Text
+- "In the title text, Cueball has managed to flip his terrible ranking into a great one, by creating a combined ranking
+  of online leaderboards." - Explanation Text
+- "Where a lower ranking elsewhere translates into a high ranking in the meta-ranking." - Explanation Text
+- "This page was created recently and is the 3110TH BEST PAGE." - Explanation Text
+- "If you can fix this issue, edit the page!" - Explanation Text
+- "Platforms such as chess.com and lichess do not abide by the FIDE floor limitation." - Explanation Text
 
 ## HABITS
 
-- Regularly question the necessity of internet connectivity in everyday household appliances.
-- Critically evaluate marketing claims about advanced features in simple device designs.
-- Consider the long-term implications of server dependency for smart device functionality.
-- Reflect on security risks before adopting internet-connected versions of basic tools.
-- Prioritize simplicity over complex technological integrations in personal device choices.
-- Stay informed about unconventional security threats like acoustic or light-based attacks.
-- Review historical critiques to understand recurring issues with smart technology trends.
-- Assess the practical value of remote monitoring against potential privacy concerns.
-- Avoid unnecessary updates or features that don't enhance core device functions.
-- Maintain skepticism towards tech solutions driven by 'because we can' mentalities.
-- Seek local network solutions for data sharing to minimize internet exposure.
-- Evaluate the risk of device obsolescence due to external server shutdowns.
-- Be cautious of over-engineered solutions that complicate rather than simplify life.
-- Keep abreast of security patch requirements for any internet-connected personal devices.
-- Balance the convenience of smart features with potential vulnerability trade-offs.
-- Research past security incidents in smart devices to inform purchase decisions.
-- Opt for devices with manual override options to bypass internet dependency.
-- Monitor personal device connectivity to prevent unintended remote access points.
-- Choose appliances with clear, transparent data usage and connectivity policies.
-- Limit smart device adoption to only those with proven, necessary benefits.
+- Engage in online chess to build social connections and make friends.
+- Interpret negative online interactions as complex expressions of community or friendship.
+- Participate in gaming communities despite prevalent toxicity for social benefits.
+- Use online platforms to track personal progress through detailed ranking systems.
+- Seek out hobbies that offer vast community engagement via internet platforms.
+- Embrace creative reinterpretations of personal rankings to maintain positive motivation.
+- Regularly play games like chess for communicative rather than competitive reasons.
+- Stay active in online leaderboards to gauge personal standing among millions.
+- Focus on personal enjoyment in gaming over achieving high rank status.
+- Build resilience against online abuse by reframing it as social interaction.
+- Explore meta-ranking strategies to find positive angles on low performance scores.
+- Maintain involvement in online hobbies that provide extensive ranking feedback.
+- Cultivate friendships through shared online activities despite challenging social dynamics.
+- Dedicate time to online gaming for its community and social engagement aspects.
+- Develop a mindset that values social bonds over competitive success in games.
+- Consistently interact within online communities to understand complex social layers.
+- Adapt to evolving ranking systems to stay relevant in online gaming spaces.
+- Prioritize social goals when choosing online activities like chess over others.
+- Reflect on personal gaming motivations to focus on friendship over winning.
+- Balance online gaming time with awareness of potential community toxicity issues.
 
 ## FACTS
 
-- Dehumidifiers remove moisture from the air to control humidity in environments.
-- Internet-connected appliances like stoves and juicers are a growing market trend.
-- Many smart devices require internet apps or connections for full functionality.
-- Dehumidifiers can track water tank levels, useful for remote monitoring purposes.
-- Humidity logs over time can indicate potential dehumidifier performance issues.
-- High humidity readings might suggest a malfunctioning or inadequate dehumidifier unit.
-- Local WiFi networks can share dehumidifier data without full internet access.
-- Manufacturer servers for smart devices can shut down, impacting device usability.
-- Security patches for smart devices often require internet access to deploy.
-- Remote exploits are security vulnerabilities allowing unauthorized access via the internet.
-- The updater in smart devices can be a primary remote access vulnerability.
-- Acoustic-based attacks on devices are proven possible through hacked speakers.
-- Light-based attacks can potentially hack devices even from outside a home.
-- Patching can sometimes mitigate unconventional attacks on internet-connected devices.
-- XKCD comic 3044 previously critiqued smart humidifiers, similar to dehumidifiers now.
-- XKCD 463 discussed security flaws in voting machines, relevant to appliances.
-- XKCD 1966 highlighted smart home security risks applicable to current devices.
-- XKCD 1912 warned about risks of computerizing simple appliances like thermostats.
-- Over-engineering in tech often stems from a desire to appear innovative.
-- Smart device connectivity can introduce more issues than it resolves practically.
+- Most sports historically ranked only the top professional participants effectively.
+- Pre-computerization, ranking thousands of competitors was impractical for most sports.
+- Chess FIDE rating floor was 2200 until the mid-1990s, limiting rankings.
+- By 2025, FIDE lowered its rating floor to 1400 for intermediates.
+- Chess.com sets its rating floor at 100, including complete beginners now.
+- Lichess uses a rating floor of 400, also ranking novice players.
+- Chess.com rankings extend into the millions due to vast user numbers.
+- Chess.com has approximately 218 million users as of current data.
+- About 58 million chess.com users possess a Rapid rating currently.
+- Ranking 7,145,000 on chess.com equates to roughly top 10% of players.
+- An Elo rating of 900 matches a chess.com rank around 7,145,000.
+- Lowest chess.com rankings might suggest poorer skill than other ranked activities.
+- Internet platforms like chess.com revolutionized ranking systems for broader access.
+- Online gaming communities often exhibit toxicity, especially in hobbyist spaces.
+- Social motivations can drive chess playing beyond mere competitive ranking desires.
+- Meta-rankings can invert low standings into high achievements creatively online.
+- Technology enables detailed player tracking, changing skill measurement in hobbies.
+- Combined online leaderboards offer new ways to interpret personal performance data.
+- Historical ranking limits highlight technology's impact on modern competitive assessments.
+- Online platforms blend competition with intricate social dynamics for users.
 
 ## REFERENCES
 
-- XKCD Comic 3109: Current comic critiquing internet-connected dehumidifiers. [View Comic](https://xkcd.com/3109/)
-- XKCD Comic 3044: Humidifier Review, related critique of smart humidifiers. [View Comic](https://xkcd.com/3044/)
-- XKCD Comic 463: Voting Machines, highlighting security issues in connected devices.
-  [View Comic](https://xkcd.com/463/)
-- XKCD Comic 1966: Smart Home Security, exploring risks in smart home tech. [View Comic](https://xkcd.com/1966/)
-- XKCD Comic 1912: Thermostat, warning about computerizing simple household appliances.
-  [View Comic](https://xkcd.com/1912/)
-- Randall Munroe: Creator of XKCD, known for tech and science commentary.
-- Cueball: Character in XKCD often providing sarcastic or insightful commentary.
-- ExplainXKCD.com: Source of detailed explanations for XKCD comic content. [Visit Site](https://www.explainxkcd.com/)
+- XKCD Comic 3110: Current comic exploring chess rankings and online community dynamics.
+- Randall Munroe: Creator of XKCD, known for insightful commentary on tech and culture.
+- Cueball: XKCD character often representing personal or social perspectives in comics.
+- White Hat: XKCD character frequently providing critical or observational commentary.
+- Chess.com: Online chess platform with millions of users and extensive rankings.
+- Lichess: Another online chess platform offering rankings for all skill levels.
+- FIDE: International Chess Federation, setting official chess rating standards globally.
+- ExplainXKCD.com: Source for detailed explanations of XKCD comic content and themes.
 
 ## ONE-SENTENCE TAKEAWAY
 
-Internet-connected appliances like dehumidifiers often introduce unnecessary security risks over practical benefits.
+Online chess platforms democratize rankings, blending competition with complex social dynamics for players.
 
 ## RECOMMENDATIONS
 
-- Avoid internet-connected appliances unless they offer clear, necessary functional benefits.
-- Opt for devices with local network options to minimize internet exposure risks.
-- Research manufacturer server longevity before purchasing smart devices for home use.
-- Prioritize simplicity in appliance design to avoid over-engineering and vulnerabilities.
-- Be cautious of marketing hype around smart features in everyday household items.
-- Consider security implications of internet connectivity before adopting new smart technology.
-- Evaluate if manual alternatives to smart devices could suffice for your needs.
-- Stay updated on security patches for any internet-connected devices you own.
-- Assess potential obsolescence risks of smart devices due to server shutdowns.
-- Limit smart device usage to reduce potential remote exploit attack vectors.
-- Choose appliances with transparent data policies to protect personal information.
-- Reflect on historical tech critiques to inform current smart device decisions.
-- Seek devices with offline functionality to ensure usability without internet.
-- Balance convenience of smart features against the potential security trade-offs involved.
-- Investigate unconventional attack methods like acoustic hacking before smart purchases.
-- Prefer trusted brands with strong security track records for connected devices.
-- Monitor tech trends to discern between genuine innovation and marketing gimmicks.
-- Engage with community reviews to understand real-world smart device issues.
-- Advocate for simpler tech solutions when smart features seem unnecessarily complex.
-- Educate yourself on smart home risks to make informed technology choices.
+- Explore online chess platforms to engage with vast, ranked player communities.
+- Use chess.com or lichess to track personal progress with detailed rankings.
+- Focus on social connections in online gaming rather than just competition.
+- Be prepared for toxicity in online communities but seek friendship anyway.
+- Consider creative meta-rankings to positively reinterpret low standings in games.
+- Participate in hobbies transformed by internet platforms for broader engagement.
+- Reflect on personal motivations in gaming to prioritize social over competitive.
+- Stay resilient against online abuse by viewing it as complex friendship.
+- Engage with online leaderboards to understand your standing among millions globally.
+- Balance gaming time with awareness of potential negative community interactions.
+- Leverage technology's detailed tracking to measure skill growth in hobbies.
+- Join online gaming spaces for intricate social dynamics beyond just winning.
+- Adapt to evolving online ranking systems to maintain relevance in communities.
+- Choose online activities like chess for their communicative, social benefits.
+- Build friendships through shared online gaming despite challenging social environments.
+- Investigate historical ranking changes to appreciate technology's impact on hobbies.
+- Embrace internet-era platforms to access inclusive, extensive ranking opportunities.
+- Develop strategies to handle online community dynamics for better experiences.
+- Prioritize personal enjoyment in online games over achieving high ranks.
+- Educate yourself on online gaming culture to navigate social complexities effectively.
