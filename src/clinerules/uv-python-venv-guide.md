@@ -131,7 +131,7 @@ This creates:
 
 ### Project Structure
 
-```
+```ini
 my-project/
 ├── .venv/               # Virtual environment (created on first use)
 ├── .python-version      # Python version specification
@@ -379,7 +379,7 @@ done
 
 ### 1. Project Structure
 
-```
+```ini
 my-project/
 ├── .git/
 ├── .gitignore
@@ -651,7 +651,7 @@ CMD ["uv", "run", "python", "-m", "my_project"]
 
 ### Monorepo Support
 
-```
+```ini
 monorepo/
 ├── .git/
 ├── pyproject.toml      # Workspace configuration
@@ -704,6 +704,7 @@ python-version = "3.12"
    ```
 
 3. **Complex Version Constraints**
+
    ```toml
    dependencies = [
        "requests>=2.28.0,<3.0.0,!=2.29.0",  # Exclude specific version
@@ -734,6 +735,7 @@ python-version = "3.12"
    ```
 
 3. **Development Dependencies with Groups**
+
    ```toml
    [project.optional-dependencies]
    test = [

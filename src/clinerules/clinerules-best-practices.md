@@ -31,9 +31,8 @@ Refer to the main `README.md` in the `.clinerules` repository for instructions o
 - **Structured Content:** Use Markdown effectively to structure your rule.
   - **Headings and Subheadings:** Organize content logically using `#`, `##`, `###`, etc.
   - **Lists:** Use bulleted (`*`, `-`) or numbered (`1.`, `2.`) lists for steps, criteria, or key points.
-  - **Code Blocks:** Use fenced code blocks
-    (`) for code examples, commands, or structured data. Specify the language for syntax highlighting (e.g., `typescript
-    ... ```).
+  - **Code Blocks:** Use fenced code blocks (\`) for code examples, commands, or structured data. Specify the language
+    for syntax highlighting (e.g., `typescript ... ```).
   - **Emphasis:** Use **bold** and _italics_ to highlight important terms or instructions.
 - **Clarity and Precision:** Write in a clear, unambiguous manner. Avoid jargon where possible, or explain it if
   necessary. If the rule is meant to guide AI behavior, precision is paramount.

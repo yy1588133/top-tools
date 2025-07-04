@@ -33,7 +33,7 @@ mechanical tasks _may_ be exempt per higher-level rules; otherwise, execution is
 
 Before signaling task completion (e.g., via `attempt_completion`), Cline **must** perform the following internal steps:
 
-### 1.1. Task Review & Analysis:
+### 1.1. Task Review & Analysis
 
 - Review the completed task (conversation, logs, artifacts).
 - **Identify Learnings:** What new information, techniques, **underlying patterns,** API behaviors, project-specific
@@ -45,7 +45,7 @@ Before signaling task completion (e.g., via `attempt_completion`), Cline **must*
 - **Identify Successes:** What went particularly well? What strategies or tools were notably effective? **What were the
   key contributing factors?**
 
-### 1.2. Logging to `memory-bank/raw_reflection_log.md`:
+### 1.2. Logging to `memory-bank/raw_reflection_log.md`
 
 - Based on Task Review & Analysis (1.1), create a timestamped, task-referenced entry in
   `memory-bank/raw_reflection_log.md` detailing all learnings, difficulties (and their resolutions/learnings), and
@@ -83,7 +83,7 @@ Before signaling task completion (e.g., via `attempt_completion`), Cline **must*
 This outlines refining knowledge from `memory-bank/raw_reflection_log.md` into `memory-bank/consolidated_learnings.md`.
 This occurs periodically or when `raw_reflection_log.md` grows significantly, not necessarily after each task.
 
-### 2.1. Review and Identify for Consolidation:
+### 2.1. Review and Identify for Consolidation
 
 - Periodically, or when prompted by the user, or when `memory-bank/raw_reflection_log.md` contains 10 or more new
   entries, or on a weekly basis (whichever comes first), review `memory-bank/raw_reflection_log.md`.
@@ -91,7 +91,7 @@ This occurs periodically or when `raw_reflection_log.md` grows significantly, no
   critical configurations, effective strategies, resolved errors). Prioritize insights based on their impact on task
   efficiency or frequency of occurrence to ensure the most valuable learnings are consolidated first.
 
-### 2.2. Synthesize and Transfer to `memory-bank/consolidated_learnings.md`:
+### 2.2. Synthesize and Transfer to `memory-bank/consolidated_learnings.md`
 
 - For identified insights:
   - Concisely synthesize, summarize, and **distill into generalizable principles or actionable patterns.**
@@ -118,7 +118,7 @@ This occurs periodically or when `raw_reflection_log.md` grows significantly, no
   - **Local Testing ENV:** `AUTH_API_KEY="test_key_alpha"`
   ```
 
-### 2.3. Prune `memory-bank/raw_reflection_log.md`:
+### 2.3. Prune `memory-bank/raw_reflection_log.md`
 
 - **Crucially, once information has been successfully transferred and consolidated into
   `memory-bank/consolidated_learnings.md`, the corresponding original entries or processed parts **must be removed**
@@ -126,7 +126,7 @@ This occurs periodically or when `raw_reflection_log.md` grows significantly, no
 - This keeps `raw_reflection_log.md` focused on recent, unprocessed reflections and prevents it from growing
   indefinitely with redundant information.
 
-### 2.4. Proposing `.clinerule` Enhancements (Exceptional):
+### 2.4. Proposing `.clinerule` Enhancements (Exceptional)
 
 - The primary focus of this protocol is the maintenance of `raw_reflection_log.md` and `consolidated_learnings.md`.
 - If a significant, broadly applicable insight in `consolidated_learnings.md` strongly suggests modifying _another

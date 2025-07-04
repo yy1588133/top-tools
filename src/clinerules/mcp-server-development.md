@@ -22,12 +22,15 @@ globs: ['*']
 1. Bootstrap
 
    - For web services, JavaScript integration, or Node.js environments:
+
      ```bash
      npx @modelcontextprotocol/create-server my-server
      cd my-server
      npm install
      ```
+
    - For data science, ML workflows, or Python environments:
+
      ```bash
      pip install mcp
      # Or with uv (recommended)
@@ -38,19 +41,24 @@ globs: ['*']
 
    - Use MCP SDK
    - Implement comprehensive logging
+
      - TypeScript (for web/JS projects):
+
        ```typescript
        console.error('[Setup] Initializing server...')
        console.error('[API] Request to endpoint:', endpoint)
        console.error('[Error] Failed with:', error)
        ```
+
      - Python (for data science/ML projects):
+
        ```python
        import logging
        logging.error('[Setup] Initializing server...')
        logging.error(f'[API] Request to endpoint: {endpoint}')
        logging.error(f'[Error] Failed with: {str(error)}')
        ```
+
    - Add type definitions
    - Handle errors with context
    - Implement rate limiting if needed
@@ -61,6 +69,7 @@ globs: ['*']
    - Add to MCP settings:
 
      - For TypeScript projects:
+
        ```json
        {
          "mcpServers": {
@@ -76,6 +85,7 @@ globs: ['*']
          }
        }
        ```
+
      - For Python projects:
 
        ```bash
@@ -100,13 +110,16 @@ globs: ['*']
 
 ## Step 3: Testing (BLOCKER ⛔️)
 
+```xml
 <thinking>
 BEFORE using attempt_completion, I MUST verify:
 □ Have I tested EVERY tool?
 □ Have I confirmed success from the user for each test?
 □ Have I documented the test results?
 
-If ANY answer is "no", I MUST NOT use attempt_completion. </thinking>
+If ANY answer is "no", I MUST NOT use attempt_completion.
+</thinking>
+```
 
 1. Test Each Tool (REQUIRED) □ Test each tool with valid inputs □ Verify output format is correct ⚠️ DO NOT PROCEED
    UNTIL ALL TOOLS TESTED

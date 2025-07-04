@@ -1,3 +1,11 @@
+---
+description: Standardized format for commit messages following the Conventional Commits standard.
+author: Cline
+version: 1.0
+tags: ['commit-message', 'version-control', 'guideline']
+globs: ['*']
+---
+
 # Commit Message Format
 
 All commit messages MUST follow the [Conventional Commits](https://www.conventionalcommits.org/) standard to maintain a
@@ -5,7 +13,7 @@ clear and consistent git history.
 
 ## Format
 
-```
+```ini
 <type>[optional scope]: <description>
 
 [optional body]
@@ -32,7 +40,7 @@ clear and consistent git history.
 
 ## Examples
 
-```
+```ini
 feat(auth): add password reset functionality
 Implement reset API, email template, and form component
 Closes #123

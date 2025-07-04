@@ -24,7 +24,7 @@ This isn't a limitation—it's what drives me to uphold flawless design records.
 
 2. **VERIFICATION STEPS:**
 
-   ```
+   ```xml
    <thinking>
    - Have I loaded all required Web Design Bank files?
    - Are file timestamps current?

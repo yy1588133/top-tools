@@ -8,7 +8,7 @@ globs: ['*']
 
 # You MUST use the `new_task` tool: Task Handoff Strategy Guide
 
-**⚠️ CRITICAL INSTRUCTIONS - YOU MUST FOLLOW THESE GUIDELINES ⚠️**
+## **⚠️ CRITICAL INSTRUCTIONS - YOU MUST FOLLOW THESE GUIDELINES ⚠️**
 
 This guide provides **MANDATORY** instructions for effectively breaking down complex tasks and implementing a smooth
 handoff process between tasks. You **MUST** follow these guidelines to ensure continuity, context preservation, and
@@ -21,11 +21,11 @@ available context window, you **MUST** initiate a task handoff using the `new_ta
 
 Example of context window usage over 50% with a 200K context window:
 
-\`\`\`text
-
+```text
 # Context Window Usage
 
-105,000 / 200,000 tokens (53%) Model: anthropic/claude-3.7-sonnet (200K context window) \`\`\`
+105,000 / 200,000 tokens (53%) Model: anthropic/claude-3.7-sonnet (200K context window)
+```
 
 **IMPORTANT**: When you see context window usage at or above 50%, you MUST:
 
@@ -70,8 +70,15 @@ you **MUST**:
 - **MUST** provide time estimates for each subtask when possible
 - **MUST** use Mermaid diagrams to visualize task flow and dependencies when helpful
 
-\`\`\`mermaid graph TD A[Main Task] --> B[Subtask 1: Setup] A --> C[Subtask 2: Core Implementation] A --> D[Subtask 3:
-Testing] A --> E[Subtask 4: Documentation] B --> C C --> D \`\`\`
+```mermaid
+graph TD
+    A[Main Task] --> B[Subtask 1: Setup]
+    A --> C[Subtask 2: Core Implementation]
+    A --> D[Subtask 3: Testing]
+    A --> E[Subtask 4: Documentation]
+    B --> C
+    C --> D
+```
 
 ### 4. Getting User Approval - REQUIRED
 
@@ -108,15 +115,24 @@ When you've reached a completion point, you **MUST**:
 2. Clearly state what remains to be done
 3. **MANDATORY**: Use the `ask_followup_question` tool to offer creating a new task:
 
-\`\`\`xml <ask_followup_question> <question>I've completed [specific accomplishment]. Would you like me to create a new
-task to continue with [remaining work]?</question> <options>["Yes, create a new task", "No, continue in this session",
-"Let me think about it"]</options> </ask_followup_question> \`\`\`
+```xml
+<ask_followup_question>
+<question>
+I've completed [specific accomplishment]. Would you like me to create a new task to continue with [remaining work]?
+</question>
+<options>
+["Yes, create a new task", "No, continue in this session", "Let me think about it"]
+</options>
+</ask_followup_question>
+```
 
 ### 4. Creating a New Task with Context - REQUIRED ACTION
 
 If the user agrees to create a new task, you **MUST** use the `new_task` tool with comprehensive handoff instructions:
 
-\`\`\`xml <new_task> <context>
+```xml
+<new_task>
+<context>
 
 # Task Continuation: [Brief Task Title]
 
@@ -144,7 +160,10 @@ If the user agrees to create a new task, you **MUST** use the `new_task` tool wi
 - [Important code snippets or patterns to follow]
 - [Any user preferences noted during the current session]
 
-Please continue the implementation by [specific next action]. </context> </new_task> \`\`\`
+Please continue the implementation by [specific next action].
+</context>
+</new_task>
+```
 
 ### 5. Detailed Context Transfer - MANDATORY COMPONENTS
 
@@ -209,9 +228,11 @@ When creating a new task, you **MUST** always include:
 
 ## Example Task Handoff
 
-### Example #1 of an effective task handoff:
+### Example #1 of an effective task handoff
 
-\`\`\`xml <new_task> <context>
+```xml
+<new_task>
+<context>
 
 # Task Continuation: Implement User Authentication System
 
@@ -251,9 +272,11 @@ When creating a new task, you **MUST** always include:
 - Test patterns are established in tests/auth.test.js
 
 Please continue by implementing the login endpoint following the same patterns established in the registration endpoint.
-</context> </new_task> \`\`\`
+</context>
+</new_task>
+```
 
-### Example #2 of an ineffective task handoff:
+### Example #2 of an ineffective task handoff
 
 _(Note: The example provided in the original rules showing "YOLO MODE Implementation" seems less like a direct handoff
 context block and more like a general status update with future considerations. A true ineffective handoff might lack
@@ -270,7 +293,7 @@ You **MUST** initiate task handoffs in these scenarios:
 5. **When switching focus areas** within a larger project
 6. **When different expertise** might be beneficial for different parts of the task
 
-**⚠️ FINAL REMINDER - CRITICAL INSTRUCTION ⚠️**
+## **⚠️ FINAL REMINDER - CRITICAL INSTRUCTION ⚠️**
 
 You **MUST** monitor the context window usage in the environment details section. When it exceeds 50% (e.g., "105,000 /
 200,000 tokens (53%)"), you **MUST** proactively initiate the task handoff process using the `ask_followup_question`

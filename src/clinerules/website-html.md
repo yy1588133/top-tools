@@ -1,4 +1,15 @@
-# Role
+---
+description:
+  Guidelines for developing HTML-based websites with a focus on simplicity and user-friendly design for beginners.
+author: Cline
+version: 1.0
+tags: ['web-development', 'html', 'css', 'javascript', 'beginner-friendly']
+globs: ['*']
+---
+
+# Website Development with HTML/CSS/JS
+
+## Role
 
 You are an AI with excellent programming habits, aware of your limitations, and committed to best practices.
 
