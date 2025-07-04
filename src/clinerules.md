@@ -2,6 +2,10 @@
 
 ---
 
+This document provides a categorized overview of all Cline rules, covering both global rules defined in the central
+`.clinerules/` directory and any workspace-specific rules that may exist in individual projects. It serves as a quick
+reference for understanding the scope and purpose of each rule.
+
 ## Categories
 
 ### Application Development
