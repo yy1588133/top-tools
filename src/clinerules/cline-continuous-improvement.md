@@ -157,3 +157,5 @@ These guidelines apply to entries in `memory-bank/raw_reflection_log.md` (initia
   make Cline's operations more robust and reliable. Frame all knowledge with this in mind.
 - **Manage Information Density:** Actively work to keep `consolidated_learnings.md` dense with high-value information
   and free of outdated or overly verbose content. The pruning of `raw_reflection_log.md` is key to this.
+- **Leverage MCP Tools for Structured Planning:** For multi-step tasks like refactoring, utilize MCP tools such as
+  'sequentialthinking' to break down processes into iterative steps, ensuring comprehensive planning and execution.
