@@ -77,6 +77,15 @@ primary, refined knowledge base for long-term use.
 - Recommended promoting awareness of the memory bank protocol among team members.
 - Added insights on context window management, documentation practices, and rule enhancement based on recent task
   reflections (2025-06-28).
+- Incorporated learnings on token reduction strategies and structured planning using the 'sequentialthinking' MCP tool
+  from refactoring tasks (2025-07-08).
+
+## Token Reduction Strategies
+
+- **Prioritize Core Principles**: When refactoring documentation for token efficiency, focus on high-level principles
+  and eliminate detailed narratives or examples to maintain essential guidance while reducing token count.
+- **Structured Planning with MCP Tools**: Utilize the 'sequentialthinking' MCP tool for tasks requiring methodical
+  planning, ensuring comprehensive coverage of necessary changes without oversight.
 
 ## Followed Custom Instructions Reflection
 
