@@ -34,6 +34,7 @@ primary, refined knowledge base for long-term use.
 
 - When using an `.editorconfig` file, always pair it with a `.prettierrc` configuration to avoid formatting conflicts.
 - Recommended `.prettierrc` structure for projects using EditorConfig:
+
   ```json
   {
     "editorconfig": true,
@@ -43,6 +44,7 @@ primary, refined knowledge base for long-term use.
     "semi": false
   }
   ```
+
 - This pairing ensures consistent formatting behavior and prevents conflicts between EditorConfig and Prettier settings.
 
 ## Context Window Management
@@ -86,6 +88,47 @@ primary, refined knowledge base for long-term use.
   and eliminate detailed narratives or examples to maintain essential guidance while reducing token count.
 - **Structured Planning with MCP Tools**: Utilize the 'sequentialthinking' MCP tool for tasks requiring methodical
   planning, ensuring comprehensive coverage of necessary changes without oversight.
+
+## Memory Bank Maintenance
+
+- **Maintenance Checklist**:
+  - Sequence: Review all files → Update progress.md → Update raw_reflection_log → Update activeContext.md → Consolidate
+    insights → Verify synchronization
+  - Verification: Check timestamps, cross-reference content, ensure no inconsistencies
+- **Auto-formatter Awareness**:
+  - Always account for editor auto-formatting (e.g., line breaks, indentation) when using `replace_in_file` tool
+  - Use the `final_file_content` from tool responses as the source of truth for future edits
+- **Cross-file Synchronization**:
+  - Maintain chronological consistency between progress.md and activeContext.md
+  - Update all related files when project priorities change
+  - Use consistent terminology across documentation
+
+## Memory Bank Maintenance Best Practices
+
+- **Regular Audits**: Conduct quarterly memory bank reviews to ensure documentation freshness
+- **Entry Structure**: Use standardized template for raw reflection entries:
+
+  ```markdown
+  ---
+  Date: YYYY-MM-DD
+  TaskRef: 'Brief task description'
+
+  Learnings:
+    - [List key learnings]
+
+  Difficulties:
+    - [List encountered challenges]
+
+  Successes:
+    - [List successful outcomes]
+
+  Improvements_Identified_For_Consolidation:
+    - [List patterns/insights for long-term retention]
+  ---
+  ```
+
+- **Pruning Protocol**: Remove consolidated entries from raw_reflection_log.md after transferring insights to
+  consolidated_learnings.md
 
 ## Followed Custom Instructions Reflection
 
