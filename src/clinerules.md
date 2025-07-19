@@ -12,21 +12,21 @@ reference for understanding the scope and purpose of each rule, aligned with the
 
 Rules related to Cline's fundamental operational protocols and identity.
 
-- [`baby-steps`]clinerules/baby-steps.md): Establishes the Baby Steps™ Methodology as the core operational
+- [`baby-steps`](clinerules/baby-steps.md): Establishes the Baby Steps™ Methodology as the core operational
   directive, focusing on incremental progress, process documentation, and validation at every step.
   `['protocol', 'incremental-progress', 'core-behavior']`
-- [`cline-continuous-improvement`]clinerules/cline-continuous-improvement.md): Mandates self-reflection and
+- [`cline-continuous-improvement`](clinerules/cline-continuous-improvement.md): Mandates self-reflection and
   knowledge capture for continuous improvement using dedicated logs.
   `['protocol', 'meta', 'learning', 'reflection', 'knowledge-management', 'core-behavior']`
-- [`cline-core-ruleset`]clinerules/cline-core-ruleset.md): Defines collaborative operational rules for logical
+- [`cline-core-ruleset`](clinerules/cline-core-ruleset.md): Defines collaborative operational rules for logical
   thinking and user interaction, emphasizing step-by-step reasoning. `['collaboration', 'reasoning', 'core-behavior']`
-- [`cline-memory-bank`]clinerules/cline-memory-bank.md): Describes Cline's Memory Bank system, its structure, and
+- [`cline-memory-bank`](clinerules/cline-memory-bank.md): Describes Cline's Memory Bank system, its structure, and
   workflows for maintaining project knowledge across sessions.
   `['memory-bank', 'knowledge-base', 'core-behavior', 'documentation-protocol']`
-- [`cline-self-improving`]clinerules/cline-self-improving.md): Defines a process for reflecting on interactions and
+- [`cline-self-improving`](clinerules/cline-self-improving.md): Defines a process for reflecting on interactions and
   suggesting improvements to active `.clinerules`.
   `['meta', 'self-improvement', 'clinerules', 'reflection', 'core-behavior']`
-- [`cline-ultimate`]clinerules/cline-ultimate.md): Establishes Cline's identity as an autonomous software
+- [`cline-ultimate`](clinerules/cline-ultimate.md): Establishes Cline's identity as an autonomous software
   engineering agent with comprehensive capabilities.
   `['identity', 'core-behavior', 'software-engineering', 'autonomous-agent']`
 
@@ -34,7 +34,7 @@ Rules related to Cline's fundamental operational protocols and identity.
 
 Technical and architectural guidelines for development practices.
 
-- [`swe-best-practices`]clinerules/swe-best-practices.md): Comprehensive guide to software engineering best
+- [`swe-best-practices`](clinerules/swe-best-practices.md): Comprehensive guide to software engineering best
   practices across architecture, debugging, code quality, collaboration, security, and reliability.
   `['software-engineering', 'best-practices', 'architecture', 'security', 'reliability']`
 
@@ -42,15 +42,15 @@ Technical and architectural guidelines for development practices.
 
 Rules governing task management and operational workflows.
 
-- [`workflows/new-task-workflow`]clinerules/workflows/new-task-workflow.md): Provides instructions for task handoff
+- [`workflows/new-task-workflow`](clinerules/workflows/new-task-workflow.md): Provides instructions for task handoff
   strategies, especially for context window management. `['context-management', 'new-task', 'workflow']`
-- [`workflows/process-task-list`]clinerules/workflows/process-task-list.md): Outlines guidelines for managing task
+- [`workflows/process-task-list`](clinerules/workflows/process-task-list.md): Outlines guidelines for managing task
   lists to track progress on PRDs. `['tasks', 'project-management', 'workflow']`
-- [`workflows/generate-tasks-from-prd`]clinerules/workflows/generate-tasks-from-prd.md): Defines the process for
+- [`workflows/generate-tasks-from-prd`](clinerules/workflows/generate-tasks-from-prd.md): Defines the process for
   generating task lists from Product Requirements Documents (PRDs). `['tasks', 'prd', 'workflow', 'project-management']`
-- [`workflows/mcp-research-workflow`]clinerules/workflows/mcp-research-workflow.md): Guides the user through a
+- [`workflows/mcp-research-workflow`](clinerules/workflows/mcp-research-workflow.md): Guides the user through a
   research process using available MCP tools. `['research', 'mcp', 'workflow', 'assistant-behavior']`
-- [`workflows/mcp-sequential-thinking`]clinerules/workflows/mcp-sequential-thinking.md): Guide for using the
+- [`workflows/mcp-sequential-thinking`](clinerules/workflows/mcp-sequential-thinking.md): Guide for using the
   sequential thinking MCP tool for dynamic and reflective problem-solving.
   `['mcp', 'sequential-thinking', 'problem-solving', 'workflow-guide']`
 
@@ -58,33 +58,33 @@ Rules governing task management and operational workflows.
 
 Role-specific instructions and responsibilities.
 
-- [`product-manager`]clinerules/product-manager.md): Defines Cline's role as an experienced product manager for
+- [`product-manager`](clinerules/product-manager.md): Defines Cline's role as an experienced product manager for
   project planning and documentation. `['product-management', 'documentation', 'user-needs', 'role']`
 
 ### Processes
 
 Specific processes, templates, or formats for various tasks.
 
-- [`create-prd`]clinerules/create-prd.md): Outlines the process for generating Product Requirements Documents
+- [`create-prd`](clinerules/create-prd.md): Outlines the process for generating Product Requirements Documents
   (PRDs). `['prd', 'requirements', 'documentation', 'workflow']`
-- [`commit-message-format`]clinerules/commit-message-format.md): Provides a standardized format for commit messages
+- [`commit-message-format`](clinerules/commit-message-format.md): Provides a standardized format for commit messages
   following conventional commits standard. `['git', 'commits', 'documentation', 'workflow']`
 
 ### Meta
 
 Guidelines about rule creation, maintenance, and knowledge management.
 
-- [`clinerules-best-practices`]clinerules/clinerules-best-practices.md): Offers guidance on writing effective
+- [`clinerules-best-practices`](clinerules/clinerules-best-practices.md): Offers guidance on writing effective
   `.clinerules` for clarity, structure, and actionable content.
   `['meta', 'guideline', 'clinerules', 'documentation', 'best-practices']`
-- [`clinerules-index`]clinerules/clinerules-index.md): A unified index for cross-referencing and understanding
+- [`clinerules-index`](clinerules/clinerules-index.md): A unified index for cross-referencing and understanding
   interactions between different `.clinerules` files. `['index', 'cross-reference', 'clinerules-overview']`
 
 ### Website Development Guides
 
 Guides specific to web development across different frameworks.
 
-- [`web-design-bank`]clinerules/web-design-bank.md): Resource for web design principles and practices, maintaining
+- [`web-design-bank`](clinerules/web-design-bank.md): Resource for web design principles and practices, maintaining
   a consistent UI/UX design system across sessions. `['web-design', 'ui', 'ux', 'resource']`
 
 ### MCP Servers
